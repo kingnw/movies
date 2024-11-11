@@ -60,14 +60,14 @@ body {
 /* Navbar Styles */
 .navbar {
     background-color: var(--color-navbar-bg);
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1rem;
     transition: background-color var(--transition-speed);
 }
 
 .navbar .navbar-brand {
     color: var(--color-navbar-brand);
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     transition: color var(--transition-speed);
 }
 
@@ -77,7 +77,7 @@ body {
 
 .navbar .navbar-nav .nav-link {
     color: var(--color-navbar-link);
-    margin-left: 0.8rem;
+    margin-left: 1rem;
     transition: color var(--transition-speed);
 }
 
@@ -189,7 +189,7 @@ body {
     color: var(--color-primary);
     text-transform: uppercase;
     letter-spacing: var(--letter-spacing-title);
-    text-align: center;
+    text-align: left;
 }
 
 @media (max-width: 768px) {
@@ -752,22 +752,6 @@ body {
     margin-top: 10px;
 }
 
-
-/* Additional CSS for star rating */
-.star-rating {
-    display: flex;
-    gap: 5px;
-}
-.star {
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: #ddd;
-}
-.star.selected {
-    color: gold;
-}
-
-
 /* Responsive Adjustments */
 @media (max-width: 768px) {
     .carousel-image {
@@ -782,6 +766,5 @@ body {
         width: 150px;
     }
 }
-
 
 }
