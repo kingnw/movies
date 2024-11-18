@@ -1,0 +1,39 @@
+<!-- templates/personalized.html -->
+{% extends 'base.html' %}
+
+{% block title %}Personalized Recommendations{% endblock %}
+
+{% block content %}
+<!-- Styled Header with Blue Color and Spacing -->
+<h2 class="text-primary my-5">Personalized Recommendations</h2>
+
+{% if recommendations %}
+    <div class="row">
+        {% for movie in recommendations %}
+        <div class="col-md-3 mb-4">
+            <div class="card">
+                <!-- Make Poster Clickable -->
+                <a href="{{ url_for('movie_details', movie_id=movie['id']) }}">
+                    <img src="{{ movie['poster'] }}" class="card-img-top" alt="{{ movie['title'] }}">
+                </a>
+                <div class="card-body">
+                    <!-- Make Title Clickable -->
+                    <a href="{{ url_for('movie_details', movie_id=movie['id']) }}" class="text-decoration-none">
+                        <h5 class="card-title">{{ movie['title'] }}</h5>
+                    </a>
+                    <!-- Display Rating -->
+                    <p class="card-text">Rating: {{ movie['rating'] }}</p>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+{% else %}
+    <!-- Prompt message when there are no recommendations -->
+    <p class="lead mt-5">No personalized recommendations yet.</p>
+    <p class="text-secondary">
+        Start by rating and reviewing movies to receive recommendations tailored to your taste.
+        Visit the <a href="/" class="text-primary">Home Page</a> to explore movies and provide feedback.
+    </p>
+{% endif %}
+{% endblock %}
