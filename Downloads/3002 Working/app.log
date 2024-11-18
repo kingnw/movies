@@ -371,3 +371,32 @@
 2024-11-18 14:45:06,405 - INFO - Cache used for key: new_released_movies
 2024-11-18 14:45:06,406 - INFO - 127.0.0.1 - - [18/Nov/2024 14:45:06] "GET / HTTP/1.1" 200 -
 2024-11-18 14:45:06,437 - INFO - 127.0.0.1 - - [18/Nov/2024 14:45:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-18 15:08:04,200 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-18 15:08:04,201 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 15:08:04,201 - INFO -  * Restarting with stat
+2024-11-18 15:08:04,473 - WARNING -  * Debugger is active!
+2024-11-18 15:08:04,481 - INFO -  * Debugger PIN: 728-234-633
+2024-11-18 15:08:09,649 - INFO -  * Detected change in '/Users/safalkarki/Downloads/3002 Working/3002/test_favorites_and_watchlist.py', reloading
+2024-11-18 15:08:09,711 - INFO -  * Restarting with stat
+2024-11-18 15:08:09,994 - WARNING -  * Debugger is active!
+2024-11-18 15:08:10,000 - INFO -  * Debugger PIN: 728-234-633
+2024-11-18 15:11:53,058 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-18 15:11:53,058 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-18 15:11:53,059 - INFO -  * Restarting with stat
+2024-11-18 15:11:53,319 - WARNING -  * Debugger is active!
+2024-11-18 15:11:53,329 - INFO -  * Debugger PIN: 728-234-633
+2024-11-18 15:11:59,880 - INFO - 127.0.0.1 - - [18/Nov/2024 15:11:59] "GET / HTTP/1.1" 200 -
+2024-11-18 15:11:59,903 - INFO - 127.0.0.1 - - [18/Nov/2024 15:11:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-18 15:12:02,511 - INFO - 127.0.0.1 - - [18/Nov/2024 15:12:02] "GET /movie/558449 HTTP/1.1" 200 -
+2024-11-18 15:12:02,524 - INFO - 127.0.0.1 - - [18/Nov/2024 15:12:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-18 15:12:04,175 - INFO - 127.0.0.1 - - [18/Nov/2024 15:12:04] "[32mPOST /watchlist/add/558449 HTTP/1.1[0m" 302 -
+2024-11-18 15:12:06,350 - INFO - 127.0.0.1 - - [18/Nov/2024 15:12:06] "GET /watchlist HTTP/1.1" 200 -
+2024-11-18 15:12:06,365 - INFO - 127.0.0.1 - - [18/Nov/2024 15:12:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-18 15:12:09,734 - INFO - 127.0.0.1 - - [18/Nov/2024 15:12:09] "[32mPOST /favorites/add/558449 HTTP/1.1[0m" 302 -
+2024-11-18 15:12:13,230 - INFO - 127.0.0.1 - - [18/Nov/2024 15:12:13] "GET /favorites HTTP/1.1" 200 -
+2024-11-18 15:12:13,244 - INFO - 127.0.0.1 - - [18/Nov/2024 15:12:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-18 15:32:05,704 - INFO - Cached search results for Inception with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-18 15:33:15,537 - INFO - Cached search results for Inception with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-18 15:38:19,759 - INFO - Cached search results for Inception with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}

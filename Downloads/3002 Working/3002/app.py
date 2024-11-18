@@ -13,6 +13,8 @@ from datetime import datetime
 import requests
 from utils import cache  # Ensure 'cache' is correctly imported from utils
 
+
+
 app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'your_secret_key')  # Use environment variable for security
 
@@ -24,6 +26,16 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['CACHE_TYPE'] = 'SimpleCache'  # Use 'SimpleCache' for in-memory caching
 app.config['CACHE_DEFAULT_TIMEOUT'] = 300  # Set default cache timeout to 5 minutes
 cache.init_app(app)
+
+
+
+def create_app():
+    app = Flask(__name__)
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///:memory:'
+    app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+    db.init_app(app)
+    return app
+
 
 # Initialize SQLAlchemy and Flask-Login
 db.init_app(app)

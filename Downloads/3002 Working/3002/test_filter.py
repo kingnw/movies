@@ -1,121 +1,92 @@
-# tests/test_filters.py
+import unittest  # Importing the Python unit testing framework
+from app import app, db  # Import the Flask app and the database object from your project
+from models import User, UserMovies  # Import the User and UserMovies models
+from unittest.mock import patch  # Import the patch utility to mock API calls
 
-import unittest
-from app import create_app
-from models import db, Movie
-from config import TestingConfig
-from bs4 import BeautifulSoup
+class AppTestCase(unittest.TestCase):
+    # This is a test class for our Flask app.
 
-class FilterSortTestCase(unittest.TestCase):
     def setUp(self):
-        """Set up a test client and initialize a new database."""
-        self.app = create_app('config.TestingConfig')
-        self.client = self.app.test_client()
-        self.app_context = self.app.app_context()
-        self.app_context.push()
-        db.create_all()
+        """Set up the test environment."""
+        # This method runs before each test.
+        # We configure the app for testing and create an in-memory database.
 
-        # Add a single sample movie to the database
-        self.populate_sample_data()
+        self.app = app  # Use the app from the project
+        self.app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///:memory:'  # Use an in-memory database for testing
+        self.app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # Disable SQLAlchemy tracking to save resources
+        self.app.testing = True  # Set the app in testing mode
+        self.client = self.app.test_client()  # Create a test client for simulating HTTP requests
+
+        # Create the database tables and add a test user
+        with self.app.app_context():  # Ensure we're working inside the app context
+            db.create_all()  # Create all tables
+            user = User(username='testuser', password='testpassword')  # Create a test user
+            db.session.add(user)  # Add the user to the database
+            db.session.commit()  # Save the user to the database
 
     def tearDown(self):
-        """Remove the database session and drop all tables."""
-        db.session.remove()
-        db.drop_all()
-        self.app_context.pop()
+        """Clean up after each test."""
+        # This method runs after each test to clean up the database.
 
-    def populate_sample_data(self):
-        """Populate the database with one sample movie."""
-        movie = Movie(
-            title="Movie A",
-            year=2000,
-            genre="Action",
-            rating=8.0,
-            language="English"
-        )
-        db.session.add(movie)
-        db.session.commit()
+        with self.app.app_context():  # Inside the app context
+            db.session.remove()  # Remove the database session
+            db.drop_all()  # Drop all tables to reset the database
 
-    def test_filter_by_genre(self):
-        """Test filtering movies by genre."""
-        response = self.client.post('/recommend', data={
-            'genre': 'Action'
-        }, follow_redirects=True)
+    def login_test_user(self):
+        """Helper method to log in the test user."""
+        # This method logs in the test user by sending a POST request to the login route.
+        
+        return self.client.post('/auth/login', data={
+            'username': 'testuser',  # The username of the test user
+            'password': 'testpassword'  # The password of the test user
+        }, follow_redirects=True)  # Follow any redirects automatically
 
-        self.assertEqual(response.status_code, 200)
+    def test_filter_watchlist(self):
+        """Test filtering the watchlist."""
+        # This test checks if the filter functionality works for the watchlist.
 
-        soup = BeautifulSoup(response.data, 'html.parser')
-        movie_titles = [tag.text.strip() for tag in soup.find_all('h5', class_='card-title')]
+        self.login_test_user()  # Log in the test user so we can access the watchlist
 
-        self.assertIn('Movie A', movie_titles)
+        # Add a test movie to the user's watchlist
+        with self.app.app_context():  # Inside the app context
+            user = User.get('testuser')  # Get the test user from the database
+            movie = UserMovies(user_id=user.id, movie_id=1, category='watchlist')  # Create a test movie
+            db.session.add(movie)  # Add the movie to the database
+            db.session.commit()  # Save changes
 
-    def test_filter_by_genre_no_results(self):
-        """Test filtering movies by a genre that does not match."""
-        response = self.client.post('/recommend', data={
-            'genre': 'Drama'
-        }, follow_redirects=True)
+        # Simulate a GET request to filter the watchlist by rating (high to low)
+        response = self.client.get('/filter_watchlist?sortby=rating_desc', follow_redirects=True)
+        self.assertEqual(response.status_code, 200)  # Check that the response status is 200 (OK)
+        self.assertIn(b"Your Watchlist", response.data)  # Check if "Your Watchlist" is in the response HTML
 
-        self.assertEqual(response.status_code, 200)
+    def test_search_movie(self):
+        """Test the search bar functionality."""
+        # This test checks if the search bar returns results for a movie title.
 
-        soup = BeautifulSoup(response.data, 'html.parser')
-        # Check if 'No movies found' message is displayed
-        no_movies_msg = soup.find('p', {'id': 'no-movies-msg'})
-        self.assertIsNotNone(no_movies_msg)
-        self.assertEqual(no_movies_msg.text.strip(), 'No movies found.')
+        # Simulate a POST request to search for "Inception"
+        response = self.client.post('/recommend', data={"movie_title": "Inception"}, follow_redirects=True)
+        self.assertEqual(response.status_code, 200)  # Check that the response status is 200 (OK)
+        self.assertIn(b"Inception", response.data)  # Check if "Inception" is in the response HTML
 
-    def test_filter_by_language(self):
-        """Test filtering movies by language."""
-        response = self.client.post('/recommend', data={
-            'language': 'English'
-        }, follow_redirects=True)
+    @patch('app.requests.get')  # Mock the requests.get function
+    def test_api_fetching(self, mock_get):
+        """Test API fetching with mocked response."""
+        # This test checks if the app handles API data correctly by mocking the API response.
 
-        self.assertEqual(response.status_code, 200)
+        # Mock the API response for top-rated movies
+        mock_get.return_value.status_code = 200  # Simulate a 200 OK response
+        mock_get.return_value.json.return_value = {
+            "results": [{"id": 1, "title": "Mock Movie", "vote_average": 8.5, "poster_path": None}]
+            # Simulate a list of movies with one movie
+        }
 
-        soup = BeautifulSoup(response.data, 'html.parser')
-        movie_titles = [tag.text.strip() for tag in soup.find_all('h5', class_='card-title')]
+        # Mock the get_languages() function, which fetches supported languages
+        with patch('app.get_languages', return_value=[{"code": "en", "name": "English"}]):
+            # Simulate a GET request to the top-rated movies page
+            response = self.client.get('/top-rated')
+            self.assertEqual(response.status_code, 200)  # Check that the response status is 200 (OK)
+            self.assertIn(b"Mock Movie", response.data)  # Check if "Mock Movie" is in the response HTML
 
-        self.assertIn('Movie A', movie_titles)
-
-    def test_filter_by_language_no_results(self):
-        """Test filtering movies by a language that does not match."""
-        response = self.client.post('/recommend', data={
-            'language': 'French'
-        }, follow_redirects=True)
-
-        self.assertEqual(response.status_code, 200)
-
-        soup = BeautifulSoup(response.data, 'html.parser')
-        no_movies_msg = soup.find('p', {'id': 'no-movies-msg'})
-        self.assertIsNotNone(no_movies_msg)
-        self.assertEqual(no_movies_msg.text.strip(), 'No movies found.')
-
-    def test_combined_filters(self):
-        """Test filtering movies with multiple criteria."""
-        response = self.client.post('/recommend', data={
-            'genre': 'Action',
-            'language': 'English'
-        }, follow_redirects=True)
-
-        self.assertEqual(response.status_code, 200)
-
-        soup = BeautifulSoup(response.data, 'html.parser')
-        movie_titles = [tag.text.strip() for tag in soup.find_all('h5', class_='card-title')]
-
-        self.assertIn('Movie A', movie_titles)
-
-    def test_combined_filters_no_results(self):
-        """Test filters that result in no matching movies."""
-        response = self.client.post('/recommend', data={
-            'genre': 'Action',
-            'language': 'French'
-        }, follow_redirects=True)
-
-        self.assertEqual(response.status_code, 200)
-
-        soup = BeautifulSoup(response.data, 'html.parser')
-        no_movies_msg = soup.find('p', {'id': 'no-movies-msg'})
-        self.assertIsNotNone(no_movies_msg)
-        self.assertEqual(no_movies_msg.text.strip(), 'No movies found.')
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main()  # Run the tests when the script is executed

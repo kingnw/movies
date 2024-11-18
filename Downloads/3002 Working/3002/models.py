@@ -64,5 +64,23 @@ class Review(db.Model):
     review_text = db.Column(db.Text, nullable=True)
     created_at = db.Column(db.DateTime, default=datetime.utcnow)
 
+
+
+
     # Relationship to access the user who made the review
     user = db.relationship('User', backref=db.backref('reviews', lazy=True))
+
+
+class Movie(db.Model):
+    """Model for storing movie details."""
+    __tablename__ = 'movies'
+
+    id = db.Column(db.Integer, primary_key=True)
+    title = db.Column(db.String(255), nullable=False)
+    genre = db.Column(db.String(100), nullable=True)
+    release_date = db.Column(db.Date, nullable=True)
+    language = db.Column(db.String(50), nullable=True)
+    rating = db.Column(db.Float, nullable=True)
+
+    def __repr__(self):
+        return f"<Movie {self.title}>"
