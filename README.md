@@ -1,23 +1,26 @@
-**Movie Recommendation System**
+# Movie Recommendation System
 
-This project, developed as part of NEF 3002 - Applied Project 2 (Winter Block), is a collaborative effort by Group 13:
+This project, developed as part of **NEF 3002 - Applied Project 2 (Winter Block)**, is a collaborative effort by **Group 13**:
 
-Safal Karki (s4680098)
-Abin Bajracharya (s4675959)
-Anup Regmi (s4680730)
-Pravesh Uprety (s4677960)
+- **Safal Karki** (s4680098)
+- **Abin Bajracharya** (s4675959)
+- **Anup Regmi** (s4680730)
+- **Pravesh Uprety** (s4677960)
+
 The application is a Flask-based web platform that enables users to explore, rate, and review movies, offering personalized recommendations based on user feedback.
 
-Features
-User Authentication: Secure registration and login system to manage user accounts.
-Movie Exploration: Browse and search for movies with detailed information fetched from the TMDB API.
-Ratings and Reviews: Users can rate movies and write reviews to share their opinions.
-Personalized Recommendations: Receive movie suggestions tailored to individual preferences based on user interactions.
-Watchlist and Favorites: Manage a personal watchlist and mark favorite movies for easy access.
-Installation
+## Features
+
+- **User Authentication**: Secure registration and login system to manage user accounts.
+- **Movie Exploration**: Browse and search for movies with detailed information fetched from the TMDB API.
+- **Ratings and Reviews**: Users can rate movies and write reviews to share their opinions.
+- **Personalized Recommendations**: Receive movie suggestions tailored to individual preferences based on user interactions.
+- **Watchlist and Favorites**: Manage a personal watchlist and mark favorite movies for easy access.
+
+## Installation
+
 To set up the Movie Recommendation System locally, follow these steps:
 
-Clone the Repository:
 
 bash
 Copy code
@@ -80,27 +83,37 @@ Copy code
 flask run
 The application will be accessible at http://127.0.0.1:5000/.
 
-Usage
-Register: Create a new account to access personalized features.
-Login: Access your account to rate, review, and receive recommendations.
-Explore Movies: Browse the movie catalog and view detailed information.
-Rate and Review: Share your thoughts by rating and reviewing movies.
-Manage Watchlist and Favorites: Keep track of movies you want to watch and your favorites.
-Get Recommendations: Discover new movies tailored to your tastes.
-Contributing
+
+## Usage
+
+- **Register**: Create a new account to access personalized features.
+- **Login**: Access your account to rate, review, and receive recommendations.
+- **Explore Movies**: Browse the movie catalog and view detailed information.
+- **Rate and Review**: Share your thoughts by rating and reviewing movies.
+- **Manage Watchlist and Favorites**: Keep track of movies you want to watch and your favorites.
+- **Get Recommendations**: Discover new movies tailored to your tastes.
+
+## Contributing
+
 Contributions are welcome! To contribute:
 
-Fork the repository.
-Create a new branch for your feature or bugfix.
-Commit your changes with clear messages.
-Push your branch and create a pull request.
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes with clear messages.
+4. Push your branch and create a pull request.
+
 Please ensure your code follows the project's coding standards and includes appropriate tests.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## License
 
-Acknowledgments
-TMDB API for providing movie data.
-Flask for the web framework.
-Bootstrap for front-end components.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [TMDB API](https://www.themoviedb.org/documentation/api) for providing movie data.
+- [Flask](https://flask.palletsprojects.com/) for the web framework.
+- [Bootstrap](https://getbootstrap.com/) for front-end components.
+
+---
+
 Thank you for using the Movie Recommendation System! If you have any questions or feedback, feel free to open an issue or contact the repository owner.
