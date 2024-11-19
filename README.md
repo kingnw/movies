@@ -1,4 +1,5 @@
-Movie Recommendation System
+**Movie Recommendation System**
+
 This project, developed as part of NEF 3002 - Applied Project 2 (Winter Block), is a collaborative effort by Group 13:
 
 Safal Karki (s4680098)
