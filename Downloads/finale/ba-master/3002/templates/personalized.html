@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block title %}Personalized Recommendations{% endblock %}
+
+{% block content %}
+<h2 class="text-primary my-5">Personalized Recommendations</h2>
+<!-- Collaborative Recommendations Section -->
+{% if collaborative_recommendations %}
+<h3>Users With Similar Taste Like</h3>
+<div class="row">
+    {% for movie in collaborative_recommendations %}
+    <div class="col-md-3 mb-4">
+        <div class="card">
+            <a href="{{ url_for('movie_details', movie_id=movie['id']) }}">
+                <img src="{{ movie['poster'] }}" class="card-img-top" alt="{{ movie['title'] }}">
+            </a>
+            <div class="card-body">
+                <a href="{{ url_for('movie_details', movie_id=movie['id']) }}" class="text-decoration-none">
+                    <h5 class="card-title">{{ movie['title'] }}</h5>
+                </a>
+                <p class="card-text">Rating: {{ movie['rating'] }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+
+<!-- Content-Based Recommendations Section -->
+{% if content_recommendations %}
+<h3>Content-Based Recommendations</h3>
+<div class="row">
+    {% for movie in content_recommendations %}
+    <div class="col-md-3 mb-4">
+        <div class="card">
+            <a href="{{ url_for('movie_details', movie_id=movie['id']) }}">
+                <img src="{{ movie['poster'] }}" class="card-img-top" alt="{{ movie['title'] }}">
+            </a>
+            <div class="card-body">
+                <a href="{{ url_for('movie_details', movie_id=movie['id']) }}" class="text-decoration-none">
+                    <h5 class="card-title">{{ movie['title'] }}</h5>
+                </a>
+                <p class="card-text">Rating: {{ movie['rating'] }}</p>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endif %}
+
+
+<!-- Message if no recommendations available -->
+{% if not content_recommendations and not collaborative_recommendations %}
+<p class="lead mt-5">No personalized recommendations yet.</p>
+<p class="text-secondary">
+    Start by rating and reviewing movies to receive recommendations tailored to your taste.
+    Visit the <a href="/" class="text-primary">Home Page</a> to explore movies and provide feedback.
+</p>
+{% endif %}
+{% endblock %}

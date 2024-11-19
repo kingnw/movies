@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags and title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Movies - Movie Recommendation System</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- External Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar with Search Bar and Conditional Authentication Links -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/">Movie Recs</a>
+            {% if current_user.is_authenticated %}
+                <span class="navbar-text ml-3">
+                    Welcome, {{ current_user.username }}
+                </span>
+            {% endif %}
+
+            <!-- Toggle button for mobile view -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links and Search Bar -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="form-inline mx-auto my-2 my-lg-0 search-form" action="/recommend" method="POST">
+                    <div class="d-flex w-100">
+                        <!-- Search Input -->
+                        <input id="movie-search" class="form-control flex-grow-1 search-input mr-2" type="search" placeholder="Enter Movie Title" 
+                               aria-label="Search" name="movie_title" required>
+                        <!-- Filter Button -->
+                        <button type="button" class="btn btn-outline-secondary mr-2" onclick="window.location.href='filters.html'" aria-label="Filter">
+                            <i class="fas fa-filter"></i>
+                        </button>
+                        <!-- Search Button -->
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </div>
+                </form>
+
+                <!-- Right side links -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/watchlist">Watchlist</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/favorites">Favorites</a></li>
+                    {% if current_user.is_authenticated %}
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-danger ml-2" href="{{ url_for('auth.logout') }}" role="button" aria-label="Logout">Logout</a>
+                        </li>
+                    {% else %}
+                        <li class="nav-item"><a class="nav-link" href="{{ url_for('auth.login') }}">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ url_for('auth.register') }}">Register</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Filters Section -->
+    <div class="container mt-5 pt-5">
+        <h2 class="section-title mb-4">Filter Movies</h2>
+        <form action="{{ url_for('recommend') }}" method="POST" class="mb-4">
+            <div class="form-row">
+                <!-- Genre Selection -->
+                <div class="form-group col-md-3">
+                    <label for="genre">Genre</label>
+                    <select class="form-control" name="genre" id="genre" aria-label="Genre">
+                        <option value="">Any</option>
+                        {% for genre in genres %}
+                        <option value="{{ genre['id'] }}">{{ genre['name'] }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <!-- Release Year Range -->
+                <div class="form-group col-md-3">
+                    <label for="release_year">Release Year</label>
+                    <input type="number" class="form-control" name="release_year" placeholder="e.g., 2023" min="1900" max="2024">
+                </div>
+                
+                <!-- Rating Range -->
+                <div class="form-group col-md-3">
+                    <label for="rating">Minimum Rating</label>
+                    <input type="number" class="form-control" name="rating" min="0" max="10" step="0.1" placeholder="e.g., 7.5">
+                </div>
+                
+                <!-- Language -->
+                <div class="form-group col-md-3">
+                    <label for="language">Language</label>
+                    <input type="text" class="form-control" name="language" placeholder="e.g., en, fr, es">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <!-- Sort By -->
+                <div class="form-group col-md-6">
+                    <label for="sort_by">Sort By</label>
+                    <select class="form-control" name="sort_by" aria-label="Sort movies by">
+                        <option value="">Default</option>
+                        <option value="rating_desc">Rating: High to Low</option>
+                        <option value="rating_asc">Rating: Low to High</option>
+                        <option value="release_date_desc">Release Date: New to Old</option>
+                        <option value="release_date_asc">Release Date: Old to New</option>
+                        <option value="title_asc">Title: A-Z</option>
+                        <option value="title_desc">Title: Z-A</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Apply Filters</button>
+            <a href="/" class="btn btn-secondary ml-2">Reset Filters</a>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start">
+        <div class="text-center p-3">
+            © 2024 Movie Recs: <a href="#" class="text-primary">movierecs.com</a>
+        </div>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Include Popper.js before Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,1958 @@
+2024-11-19 12:46:52,101 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 12:46:52,101 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 12:46:52,109 - INFO -  * Restarting with stat
+2024-11-19 12:46:53,515 - WARNING -  * Debugger is active!
+2024-11-19 12:46:53,519 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 12:46:56,379 - INFO - 127.0.0.1 - - [19/Nov/2024 12:46:56] "GET / HTTP/1.1" 200 -
+2024-11-19 12:46:56,485 - INFO - 127.0.0.1 - - [19/Nov/2024 12:46:56] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-19 12:46:59,139 - INFO - 127.0.0.1 - - [19/Nov/2024 12:46:59] "GET /movie/558449 HTTP/1.1" 200 -
+2024-11-19 12:46:59,178 - INFO - 127.0.0.1 - - [19/Nov/2024 12:46:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:47:05,200 - INFO - 127.0.0.1 - - [19/Nov/2024 12:47:05] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 12:47:05,239 - INFO - 127.0.0.1 - - [19/Nov/2024 12:47:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:47:11,198 - INFO - Cache used for key: movie_genres
+2024-11-19 12:47:11,712 - INFO - Cache used for key: trending_movies
+2024-11-19 12:47:11,712 - INFO - Cache used for key: top_rated_movies
+2024-11-19 12:47:11,713 - INFO - Cache used for key: new_released_movies
+2024-11-19 12:47:11,714 - INFO - 127.0.0.1 - - [19/Nov/2024 12:47:11] "GET / HTTP/1.1" 200 -
+2024-11-19 12:47:11,745 - INFO - 127.0.0.1 - - [19/Nov/2024 12:47:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:47:15,305 - INFO - 127.0.0.1 - - [19/Nov/2024 12:47:15] "GET /movie/845781 HTTP/1.1" 200 -
+2024-11-19 12:47:15,350 - INFO - 127.0.0.1 - - [19/Nov/2024 12:47:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:47:30,981 - INFO - 127.0.0.1 - - [19/Nov/2024 12:47:30] "GET /movie/278 HTTP/1.1" 200 -
+2024-11-19 12:47:31,026 - INFO - 127.0.0.1 - - [19/Nov/2024 12:47:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:47:44,090 - INFO - Cache used for key: movie_genres
+2024-11-19 12:47:44,176 - INFO - Cached search results for A Bug's Life with filters None
+2024-11-19 12:47:44,176 - INFO - 127.0.0.1 - - [19/Nov/2024 12:47:44] "GET /autocomplete?q=A%20Bug's%20Life HTTP/1.1" 200 -
+2024-11-19 12:47:44,860 - INFO - Cache used for key: movie_genres
+2024-11-19 12:47:44,875 - INFO - Cached search results for A Bug's Life with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 12:47:45,146 - INFO - Cache used for key: trending_movies
+2024-11-19 12:47:45,146 - INFO - Cache used for key: top_rated_movies
+2024-11-19 12:47:45,146 - INFO - Cache used for key: new_released_movies
+2024-11-19 12:47:45,149 - INFO - 127.0.0.1 - - [19/Nov/2024 12:47:45] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 12:47:45,641 - INFO - Cache used for key: trending_movies
+2024-11-19 12:47:45,641 - INFO - Cache used for key: top_rated_movies
+2024-11-19 12:47:45,641 - INFO - Cache used for key: new_released_movies
+2024-11-19 12:47:45,644 - INFO - 127.0.0.1 - - [19/Nov/2024 12:47:45] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 12:47:45,682 - INFO - 127.0.0.1 - - [19/Nov/2024 12:47:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:47:49,596 - INFO - 127.0.0.1 - - [19/Nov/2024 12:47:49] "GET /movie/9487 HTTP/1.1" 200 -
+2024-11-19 12:47:49,619 - INFO - 127.0.0.1 - - [19/Nov/2024 12:47:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:47:58,947 - INFO - Cache used for key: movie_genres
+2024-11-19 12:48:06,204 - INFO - Cached search results for venom with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 12:48:06,207 - INFO - Cached search results for venom with filters None
+2024-11-19 12:48:06,208 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:06] "GET /autocomplete?q=venom HTTP/1.1" 200 -
+2024-11-19 12:48:06,478 - INFO - Cache used for key: trending_movies
+2024-11-19 12:48:06,479 - INFO - Cache used for key: top_rated_movies
+2024-11-19 12:48:06,479 - INFO - Cache used for key: new_released_movies
+2024-11-19 12:48:06,482 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:06] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 12:48:06,518 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:48:06,988 - INFO - Cached search results for venm with filters None
+2024-11-19 12:48:06,989 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:06] "GET /autocomplete?q=venm HTTP/1.1" 200 -
+2024-11-19 12:48:09,286 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:09] "GET /movie/335983 HTTP/1.1" 200 -
+2024-11-19 12:48:09,310 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:48:10,299 - INFO - Cached search results for ven with filters None
+2024-11-19 12:48:10,301 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:10] "GET /autocomplete?q=ven HTTP/1.1" 200 -
+2024-11-19 12:48:17,125 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:17] "GET /movie/912649 HTTP/1.1" 200 -
+2024-11-19 12:48:17,170 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:48:26,320 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:26] "GET /movie/7182 HTTP/1.1" 200 -
+2024-11-19 12:48:26,364 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:48:46,674 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:46] "GET /movie/9487 HTTP/1.1" 200 -
+2024-11-19 12:48:46,712 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:48:48,963 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:48] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 12:48:51,342 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:51] "POST /auth/login HTTP/1.1" 200 -
+2024-11-19 12:48:56,172 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:56] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 12:48:58,173 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:58] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 12:48:58,180 - INFO - 127.0.0.1 - - [19/Nov/2024 12:48:58] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 12:49:00,229 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:00] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 12:49:00,520 - INFO - Cache used for key: movie_genres
+2024-11-19 12:49:01,023 - INFO - Cache used for key: trending_movies
+2024-11-19 12:49:01,024 - INFO - Cache used for key: top_rated_movies
+2024-11-19 12:49:01,024 - INFO - Cache used for key: new_released_movies
+2024-11-19 12:49:01,025 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:01] "GET / HTTP/1.1" 200 -
+2024-11-19 12:49:01,102 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:49:06,654 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:06] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 12:49:06,697 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:49:11,508 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:11] "[32mPOST /movie/533535 HTTP/1.1[0m" 302 -
+2024-11-19 12:49:12,337 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:12] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 12:49:12,377 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:49:13,322 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:13] "[32mPOST /favorites/add/533535 HTTP/1.1[0m" 302 -
+2024-11-19 12:49:15,031 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:15] "GET /favorites HTTP/1.1" 200 -
+2024-11-19 12:49:15,081 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:49:17,836 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:17] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 12:49:17,880 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:49:27,864 - INFO - Cache used for key: movie_genres
+2024-11-19 12:49:28,359 - INFO - Cache used for key: trending_movies
+2024-11-19 12:49:28,361 - INFO - Cache used for key: top_rated_movies
+2024-11-19 12:49:28,361 - INFO - Cache used for key: new_released_movies
+2024-11-19 12:49:28,362 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:28] "GET / HTTP/1.1" 200 -
+2024-11-19 12:49:28,401 - INFO - 127.0.0.1 - - [19/Nov/2024 12:49:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:50:19,117 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:19] "GET /movie/912649 HTTP/1.1" 200 -
+2024-11-19 12:50:19,174 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:50:23,905 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:23] "[32mPOST /movie/912649 HTTP/1.1[0m" 302 -
+2024-11-19 12:50:24,731 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:24] "GET /movie/912649 HTTP/1.1" 200 -
+2024-11-19 12:50:24,774 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:50:25,815 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:25] "[32mPOST /favorites/add/912649 HTTP/1.1[0m" 302 -
+2024-11-19 12:50:28,024 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:28] "GET /favorites HTTP/1.1" 200 -
+2024-11-19 12:50:28,073 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:50:33,181 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:33] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 12:50:33,221 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:50:43,779 - INFO - Cache used for key: movie_genres
+2024-11-19 12:50:44,315 - INFO - Cache used for key: trending_movies
+2024-11-19 12:50:44,315 - INFO - Cache used for key: top_rated_movies
+2024-11-19 12:50:44,316 - INFO - Cache used for key: new_released_movies
+2024-11-19 12:50:44,317 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:44] "GET / HTTP/1.1" 200 -
+2024-11-19 12:50:44,344 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:50:53,649 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:53] "GET /movie/933260 HTTP/1.1" 200 -
+2024-11-19 12:50:53,681 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:50:57,955 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:57] "[32mPOST /movie/933260 HTTP/1.1[0m" 302 -
+2024-11-19 12:50:58,787 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:58] "GET /movie/933260 HTTP/1.1" 200 -
+2024-11-19 12:50:58,811 - INFO - 127.0.0.1 - - [19/Nov/2024 12:50:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:51:03,919 - INFO - 127.0.0.1 - - [19/Nov/2024 12:51:03] "[32mPOST /favorites/add/933260 HTTP/1.1[0m" 302 -
+2024-11-19 12:51:04,463 - INFO - 127.0.0.1 - - [19/Nov/2024 12:51:04] "[32mPOST /favorites/add/933260 HTTP/1.1[0m" 302 -
+2024-11-19 12:51:07,203 - INFO - 127.0.0.1 - - [19/Nov/2024 12:51:07] "GET /favorites HTTP/1.1" 200 -
+2024-11-19 12:51:07,757 - INFO - 127.0.0.1 - - [19/Nov/2024 12:51:07] "GET /favorites HTTP/1.1" 200 -
+2024-11-19 12:51:07,785 - INFO - 127.0.0.1 - - [19/Nov/2024 12:51:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:51:13,192 - INFO - 127.0.0.1 - - [19/Nov/2024 12:51:13] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 12:51:13,232 - INFO - 127.0.0.1 - - [19/Nov/2024 12:51:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:51:22,454 - INFO - Cache used for key: movie_genres
+2024-11-19 12:51:22,939 - INFO - Cache used for key: trending_movies
+2024-11-19 12:51:22,939 - INFO - Cache used for key: top_rated_movies
+2024-11-19 12:51:22,940 - INFO - Cache used for key: new_released_movies
+2024-11-19 12:51:22,941 - INFO - 127.0.0.1 - - [19/Nov/2024 12:51:22] "GET / HTTP/1.1" 200 -
+2024-11-19 12:51:22,971 - INFO - 127.0.0.1 - - [19/Nov/2024 12:51:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:51:46,618 - INFO - 127.0.0.1 - - [19/Nov/2024 12:51:46] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 12:51:46,663 - INFO - 127.0.0.1 - - [19/Nov/2024 12:51:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:52:41,145 - INFO - Cache used for key: movie_genres
+2024-11-19 12:52:42,466 - INFO - 127.0.0.1 - - [19/Nov/2024 12:52:42] "GET / HTTP/1.1" 200 -
+2024-11-19 12:52:42,493 - INFO - 127.0.0.1 - - [19/Nov/2024 12:52:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 12:52:43,553 - INFO - Cache used for key: movie_genres
+2024-11-19 12:52:44,061 - INFO - Cache used for key: trending_movies
+2024-11-19 12:52:44,061 - INFO - Cache used for key: top_rated_movies
+2024-11-19 12:52:44,061 - INFO - Cache used for key: new_released_movies
+2024-11-19 12:52:44,063 - INFO - 127.0.0.1 - - [19/Nov/2024 12:52:44] "GET / HTTP/1.1" 200 -
+2024-11-19 12:52:44,090 - INFO - 127.0.0.1 - - [19/Nov/2024 12:52:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:01:38,112 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 13:01:38,112 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 13:01:38,114 - INFO -  * Restarting with stat
+2024-11-19 13:01:39,478 - WARNING -  * Debugger is active!
+2024-11-19 13:01:39,483 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 13:01:42,618 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:42] "GET / HTTP/1.1" 200 -
+2024-11-19 13:01:42,745 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:42] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-19 13:01:44,859 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:44] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 13:01:47,171 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:47] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 13:01:47,181 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:47] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:01:48,901 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:48] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:01:49,183 - INFO - Cache used for key: movie_genres
+2024-11-19 13:01:49,272 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:49] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:01:49,558 - INFO - Cache used for key: movie_genres
+2024-11-19 13:01:49,688 - INFO - Cache used for key: trending_movies
+2024-11-19 13:01:49,688 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:01:49,688 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:01:49,690 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:49] "GET / HTTP/1.1" 200 -
+2024-11-19 13:01:50,039 - INFO - Cache used for key: trending_movies
+2024-11-19 13:01:50,039 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:01:50,039 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:01:50,040 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:50] "GET / HTTP/1.1" 200 -
+2024-11-19 13:01:50,106 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:01:52,246 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:52] "GET /movie/558449 HTTP/1.1" 200 -
+2024-11-19 13:01:52,298 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:01:53,622 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:53] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:01:53,673 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:01:59,297 - INFO - 127.0.0.1 - - [19/Nov/2024 13:01:59] "[32mPOST /movie/558449 HTTP/1.1[0m" 302 -
+2024-11-19 13:02:00,130 - INFO - 127.0.0.1 - - [19/Nov/2024 13:02:00] "GET /movie/558449 HTTP/1.1" 200 -
+2024-11-19 13:02:00,175 - INFO - 127.0.0.1 - - [19/Nov/2024 13:02:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:02:02,539 - INFO - 127.0.0.1 - - [19/Nov/2024 13:02:02] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:02:02,572 - INFO - 127.0.0.1 - - [19/Nov/2024 13:02:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:02:23,421 - INFO - Cache used for key: movie_genres
+2024-11-19 13:02:23,926 - INFO - Cache used for key: trending_movies
+2024-11-19 13:02:23,927 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:02:23,927 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:02:23,928 - INFO - 127.0.0.1 - - [19/Nov/2024 13:02:23] "GET / HTTP/1.1" 200 -
+2024-11-19 13:02:23,973 - INFO - 127.0.0.1 - - [19/Nov/2024 13:02:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:16:57,011 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\ba-master (3)\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 13:16:57,121 - INFO -  * Restarting with stat
+2024-11-19 13:17:01,427 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 13:17:01,427 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 13:17:01,429 - INFO -  * Restarting with stat
+2024-11-19 13:17:03,010 - WARNING -  * Debugger is active!
+2024-11-19 13:17:03,017 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 13:17:06,649 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:06] "GET / HTTP/1.1" 200 -
+2024-11-19 13:17:06,761 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:06] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-19 13:17:09,268 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:09] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 13:17:17,603 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:17] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 13:17:17,613 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:17] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:17:22,580 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:22] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:17:23,086 - INFO - Cache used for key: movie_genres
+2024-11-19 13:17:23,616 - INFO - Cache used for key: trending_movies
+2024-11-19 13:17:23,616 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:17:23,617 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:17:23,619 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:23] "GET / HTTP/1.1" 200 -
+2024-11-19 13:17:23,644 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:17:27,879 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:27] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 13:17:27,904 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:17:31,879 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:31] "[32mPOST /movie/533535 HTTP/1.1[0m" 302 -
+2024-11-19 13:17:32,731 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:32] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 13:17:32,899 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:32] "[32mPOST /movie/533535 HTTP/1.1[0m" 302 -
+2024-11-19 13:17:33,767 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:33] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 13:17:33,782 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:17:40,054 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:40] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:17:40,074 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:17:50,481 - INFO - Cache used for key: movie_genres
+2024-11-19 13:17:51,009 - INFO - Cache used for key: trending_movies
+2024-11-19 13:17:51,010 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:17:51,010 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:17:51,011 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:51] "GET / HTTP/1.1" 200 -
+2024-11-19 13:17:51,029 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:17:54,426 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:54] "GET /movie/912649 HTTP/1.1" 200 -
+2024-11-19 13:17:54,451 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:17:57,343 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:57] "[32mPOST /movie/912649 HTTP/1.1[0m" 302 -
+2024-11-19 13:17:58,151 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:58] "GET /movie/912649 HTTP/1.1" 200 -
+2024-11-19 13:17:58,169 - INFO - 127.0.0.1 - - [19/Nov/2024 13:17:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:18:03,420 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:03] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:18:03,441 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:18:07,082 - INFO - Cache used for key: movie_genres
+2024-11-19 13:18:07,608 - INFO - Cache used for key: trending_movies
+2024-11-19 13:18:07,608 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:18:07,608 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:18:07,609 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:07] "GET / HTTP/1.1" 200 -
+2024-11-19 13:18:07,629 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:18:13,161 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:13] "GET /movie/845781 HTTP/1.1" 200 -
+2024-11-19 13:18:13,184 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:18:17,386 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:17] "[32mPOST /movie/845781 HTTP/1.1[0m" 302 -
+2024-11-19 13:18:18,223 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:18] "GET /movie/845781 HTTP/1.1" 200 -
+2024-11-19 13:18:18,239 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:18:22,802 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:22] "[32mPOST /movie/845781 HTTP/1.1[0m" 302 -
+2024-11-19 13:18:23,634 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:23] "GET /movie/845781 HTTP/1.1" 200 -
+2024-11-19 13:18:23,652 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:18:28,886 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:28] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:18:28,905 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:18:30,489 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:30] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 13:18:30,767 - INFO - Cache used for key: movie_genres
+2024-11-19 13:18:31,257 - INFO - Cache used for key: trending_movies
+2024-11-19 13:18:31,258 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:18:31,258 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:18:31,259 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:31] "GET / HTTP/1.1" 200 -
+2024-11-19 13:18:31,279 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:18:32,292 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:32] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 13:18:38,031 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:38] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 13:18:38,036 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:38] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:18:41,363 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:41] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:18:41,657 - INFO - Cache used for key: movie_genres
+2024-11-19 13:18:42,152 - INFO - Cache used for key: trending_movies
+2024-11-19 13:18:42,153 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:18:42,153 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:18:42,154 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:42] "GET / HTTP/1.1" 200 -
+2024-11-19 13:18:42,178 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:18:46,061 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:46] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 13:18:46,082 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:18:51,195 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:51] "[32mPOST /movie/533535 HTTP/1.1[0m" 302 -
+2024-11-19 13:18:52,029 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:52] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 13:18:52,044 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:18:58,044 - INFO - Cache used for key: movie_genres
+2024-11-19 13:18:58,562 - INFO - Cache used for key: trending_movies
+2024-11-19 13:18:58,562 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:18:58,563 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:18:58,564 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:58] "GET / HTTP/1.1" 200 -
+2024-11-19 13:18:58,584 - INFO - 127.0.0.1 - - [19/Nov/2024 13:18:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:19:02,306 - INFO - 127.0.0.1 - - [19/Nov/2024 13:19:02] "GET /movie/912649 HTTP/1.1" 200 -
+2024-11-19 13:19:02,328 - INFO - 127.0.0.1 - - [19/Nov/2024 13:19:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:19:05,683 - INFO - 127.0.0.1 - - [19/Nov/2024 13:19:05] "[32mPOST /movie/912649 HTTP/1.1[0m" 302 -
+2024-11-19 13:19:06,499 - INFO - 127.0.0.1 - - [19/Nov/2024 13:19:06] "GET /movie/912649 HTTP/1.1" 200 -
+2024-11-19 13:19:06,513 - INFO - 127.0.0.1 - - [19/Nov/2024 13:19:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:19:11,081 - INFO - 127.0.0.1 - - [19/Nov/2024 13:19:11] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:19:11,100 - INFO - 127.0.0.1 - - [19/Nov/2024 13:19:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:20:09,787 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\ba-master (3)\\ba-master\\3002\\app.py', reloading
+2024-11-19 13:20:09,897 - INFO -  * Restarting with stat
+2024-11-19 13:20:11,188 - WARNING -  * Debugger is active!
+2024-11-19 13:20:11,193 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 13:20:17,883 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 13:20:17,883 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 13:20:17,885 - INFO -  * Restarting with stat
+2024-11-19 13:20:19,316 - WARNING -  * Debugger is active!
+2024-11-19 13:20:19,321 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 13:20:22,239 - INFO - 127.0.0.1 - - [19/Nov/2024 13:20:22] "GET / HTTP/1.1" 200 -
+2024-11-19 13:20:22,348 - INFO - 127.0.0.1 - - [19/Nov/2024 13:20:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:20:34,545 - INFO - 127.0.0.1 - - [19/Nov/2024 13:20:34] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:20:34,566 - INFO - 127.0.0.1 - - [19/Nov/2024 13:20:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:20:37,090 - INFO - Cache used for key: movie_genres
+2024-11-19 13:20:37,611 - INFO - Cache used for key: trending_movies
+2024-11-19 13:20:37,611 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:20:37,611 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:20:37,614 - INFO - 127.0.0.1 - - [19/Nov/2024 13:20:37] "GET / HTTP/1.1" 200 -
+2024-11-19 13:20:37,633 - INFO - 127.0.0.1 - - [19/Nov/2024 13:20:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:20:40,040 - INFO - 127.0.0.1 - - [19/Nov/2024 13:20:40] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 13:20:40,068 - INFO - 127.0.0.1 - - [19/Nov/2024 13:20:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:20:44,173 - INFO - 127.0.0.1 - - [19/Nov/2024 13:20:44] "[32mPOST /movie/533535 HTTP/1.1[0m" 302 -
+2024-11-19 13:20:45,013 - INFO - 127.0.0.1 - - [19/Nov/2024 13:20:45] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 13:20:45,028 - INFO - 127.0.0.1 - - [19/Nov/2024 13:20:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:20:49,671 - INFO - 127.0.0.1 - - [19/Nov/2024 13:20:49] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:20:49,690 - INFO - 127.0.0.1 - - [19/Nov/2024 13:20:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:21:29,608 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\ba-master (3)\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 13:21:29,722 - INFO -  * Restarting with stat
+2024-11-19 13:21:30,954 - WARNING -  * Debugger is active!
+2024-11-19 13:21:30,959 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 13:21:36,262 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 13:21:36,263 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 13:21:36,265 - INFO -  * Restarting with stat
+2024-11-19 13:21:37,482 - WARNING -  * Debugger is active!
+2024-11-19 13:21:37,489 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 13:21:39,948 - INFO - 127.0.0.1 - - [19/Nov/2024 13:21:39] "GET / HTTP/1.1" 200 -
+2024-11-19 13:21:40,049 - INFO - 127.0.0.1 - - [19/Nov/2024 13:21:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:21:42,376 - INFO - 127.0.0.1 - - [19/Nov/2024 13:21:42] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 13:21:42,646 - INFO - Cache used for key: movie_genres
+2024-11-19 13:21:43,177 - INFO - Cache used for key: trending_movies
+2024-11-19 13:21:43,177 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:21:43,178 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:21:43,179 - INFO - 127.0.0.1 - - [19/Nov/2024 13:21:43] "GET / HTTP/1.1" 200 -
+2024-11-19 13:21:43,195 - INFO - 127.0.0.1 - - [19/Nov/2024 13:21:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:21:44,975 - INFO - 127.0.0.1 - - [19/Nov/2024 13:21:44] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:21:46,134 - INFO - 127.0.0.1 - - [19/Nov/2024 13:21:46] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 13:21:53,207 - INFO - 127.0.0.1 - - [19/Nov/2024 13:21:53] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 13:21:53,215 - INFO - 127.0.0.1 - - [19/Nov/2024 13:21:53] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:21:54,897 - INFO - 127.0.0.1 - - [19/Nov/2024 13:21:54] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:21:55,177 - INFO - Cache used for key: movie_genres
+2024-11-19 13:21:55,663 - INFO - Cache used for key: trending_movies
+2024-11-19 13:21:55,663 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:21:55,664 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:21:55,665 - INFO - 127.0.0.1 - - [19/Nov/2024 13:21:55] "GET / HTTP/1.1" 200 -
+2024-11-19 13:21:55,689 - INFO - 127.0.0.1 - - [19/Nov/2024 13:21:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:21:57,806 - INFO - 127.0.0.1 - - [19/Nov/2024 13:21:57] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:21:57,829 - INFO - 127.0.0.1 - - [19/Nov/2024 13:21:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:22:01,843 - INFO - 127.0.0.1 - - [19/Nov/2024 13:22:01] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 13:22:01,869 - INFO - 127.0.0.1 - - [19/Nov/2024 13:22:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:22:08,213 - INFO - 127.0.0.1 - - [19/Nov/2024 13:22:08] "[32mPOST /movie/533535 HTTP/1.1[0m" 302 -
+2024-11-19 13:22:09,051 - INFO - 127.0.0.1 - - [19/Nov/2024 13:22:09] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 13:22:09,070 - INFO - 127.0.0.1 - - [19/Nov/2024 13:22:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:22:14,547 - INFO - 127.0.0.1 - - [19/Nov/2024 13:22:14] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:22:14,565 - INFO - 127.0.0.1 - - [19/Nov/2024 13:22:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:26:18,258 - INFO - Cache used for key: movie_genres
+2024-11-19 13:26:18,793 - INFO - Cache used for key: trending_movies
+2024-11-19 13:26:18,793 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:26:18,794 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:26:18,795 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:18] "GET / HTTP/1.1" 200 -
+2024-11-19 13:26:18,810 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:26:20,297 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:20] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 13:26:20,616 - INFO - Cache used for key: movie_genres
+2024-11-19 13:26:21,148 - INFO - Cache used for key: trending_movies
+2024-11-19 13:26:21,149 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:26:21,149 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:26:21,150 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:21] "GET / HTTP/1.1" 200 -
+2024-11-19 13:26:21,175 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:26:21,963 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:21] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 13:26:21,968 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:21] "GET /auth/login?next=/auth/logout HTTP/1.1" 200 -
+2024-11-19 13:26:24,036 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:24] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 13:26:28,408 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:28] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 13:26:34,106 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:34] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 13:26:34,110 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:34] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:26:38,244 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:38] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:26:38,533 - INFO - Cache used for key: movie_genres
+2024-11-19 13:26:39,893 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:39] "GET / HTTP/1.1" 200 -
+2024-11-19 13:26:39,915 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:26:45,573 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:45] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 13:26:45,578 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:45] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:26:49,047 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:49] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:26:49,326 - INFO - Cache used for key: movie_genres
+2024-11-19 13:26:49,848 - INFO - Cache used for key: trending_movies
+2024-11-19 13:26:49,848 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:26:49,848 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:26:49,849 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:49] "GET / HTTP/1.1" 200 -
+2024-11-19 13:26:49,873 - INFO - 127.0.0.1 - - [19/Nov/2024 13:26:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:27:02,646 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:27:02,646 - INFO - Cache used for key: movie_genres
+2024-11-19 13:27:03,188 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:03] "GET /new-released HTTP/1.1" 200 -
+2024-11-19 13:27:03,207 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:27:08,237 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:27:08,237 - INFO - Cache used for key: movie_genres
+2024-11-19 13:27:08,750 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:08] "GET /top-rated HTTP/1.1" 200 -
+2024-11-19 13:27:08,768 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:27:13,099 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:13] "GET /movie/496243 HTTP/1.1" 200 -
+2024-11-19 13:27:13,119 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:27:17,835 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:17] "[32mPOST /movie/496243 HTTP/1.1[0m" 302 -
+2024-11-19 13:27:18,665 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:18] "GET /movie/496243 HTTP/1.1" 200 -
+2024-11-19 13:27:18,684 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:27:29,993 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:29] "GET /movie/496243 HTTP/1.1" 200 -
+2024-11-19 13:27:30,016 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:27:34,105 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:34] "[32mPOST /movie/496243 HTTP/1.1[0m" 302 -
+2024-11-19 13:27:34,941 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:34] "GET /movie/496243 HTTP/1.1" 200 -
+2024-11-19 13:27:34,960 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:27:38,029 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:38] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:27:38,050 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:27:44,286 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:44] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:27:44,306 - INFO - 127.0.0.1 - - [19/Nov/2024 13:27:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:28:11,611 - INFO - Cache used for key: movie_genres
+2024-11-19 13:28:11,611 - INFO - Cache used for key: movie_genres
+2024-11-19 13:28:12,134 - INFO - Cache used for key: trending_movies
+2024-11-19 13:28:12,134 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:28:12,135 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:28:12,136 - INFO - 127.0.0.1 - - [19/Nov/2024 13:28:12] "GET / HTTP/1.1" 200 -
+2024-11-19 13:28:12,142 - INFO - Cache used for key: trending_movies
+2024-11-19 13:28:12,142 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:28:12,143 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:28:12,144 - INFO - 127.0.0.1 - - [19/Nov/2024 13:28:12] "GET / HTTP/1.1" 200 -
+2024-11-19 13:28:12,158 - INFO - 127.0.0.1 - - [19/Nov/2024 13:28:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:28:19,204 - INFO - 127.0.0.1 - - [19/Nov/2024 13:28:19] "GET /movie/497 HTTP/1.1" 200 -
+2024-11-19 13:28:19,227 - INFO - 127.0.0.1 - - [19/Nov/2024 13:28:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:28:22,939 - INFO - 127.0.0.1 - - [19/Nov/2024 13:28:22] "[32mPOST /movie/497 HTTP/1.1[0m" 302 -
+2024-11-19 13:28:24,340 - INFO - 127.0.0.1 - - [19/Nov/2024 13:28:24] "GET /movie/497 HTTP/1.1" 200 -
+2024-11-19 13:28:24,360 - INFO - 127.0.0.1 - - [19/Nov/2024 13:28:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:28:29,358 - INFO - 127.0.0.1 - - [19/Nov/2024 13:28:29] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:28:29,381 - INFO - 127.0.0.1 - - [19/Nov/2024 13:28:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:28:41,087 - INFO - 127.0.0.1 - - [19/Nov/2024 13:28:41] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:28:41,104 - INFO - 127.0.0.1 - - [19/Nov/2024 13:28:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:29:08,080 - INFO - Cache used for key: movie_genres
+2024-11-19 13:29:08,561 - INFO - Cache used for key: trending_movies
+2024-11-19 13:29:08,562 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:29:08,562 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:29:08,564 - INFO - 127.0.0.1 - - [19/Nov/2024 13:29:08] "GET / HTTP/1.1" 200 -
+2024-11-19 13:29:08,584 - INFO - 127.0.0.1 - - [19/Nov/2024 13:29:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:29:15,231 - INFO - 127.0.0.1 - - [19/Nov/2024 13:29:15] "GET /movie/497 HTTP/1.1" 200 -
+2024-11-19 13:29:15,252 - INFO - 127.0.0.1 - - [19/Nov/2024 13:29:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:29:41,339 - INFO - 127.0.0.1 - - [19/Nov/2024 13:29:41] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 13:29:41,634 - INFO - Cache used for key: movie_genres
+2024-11-19 13:29:42,311 - INFO - Cache used for key: trending_movies
+2024-11-19 13:29:42,312 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:29:42,312 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:29:42,314 - INFO - 127.0.0.1 - - [19/Nov/2024 13:29:42] "GET / HTTP/1.1" 200 -
+2024-11-19 13:29:42,337 - INFO - 127.0.0.1 - - [19/Nov/2024 13:29:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:29:43,567 - INFO - 127.0.0.1 - - [19/Nov/2024 13:29:43] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 13:29:46,294 - INFO - 127.0.0.1 - - [19/Nov/2024 13:29:46] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:29:51,540 - INFO - 127.0.0.1 - - [19/Nov/2024 13:29:51] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:29:51,824 - INFO - Cache used for key: movie_genres
+2024-11-19 13:29:52,342 - INFO - Cache used for key: trending_movies
+2024-11-19 13:29:52,343 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:29:52,343 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:29:52,344 - INFO - 127.0.0.1 - - [19/Nov/2024 13:29:52] "GET / HTTP/1.1" 200 -
+2024-11-19 13:29:52,369 - INFO - 127.0.0.1 - - [19/Nov/2024 13:29:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:29:59,362 - INFO - 127.0.0.1 - - [19/Nov/2024 13:29:59] "GET /movie/497 HTTP/1.1" 200 -
+2024-11-19 13:29:59,381 - INFO - 127.0.0.1 - - [19/Nov/2024 13:29:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:30:03,515 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:03] "[32mPOST /movie/497 HTTP/1.1[0m" 302 -
+2024-11-19 13:30:04,338 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:04] "GET /movie/497 HTTP/1.1" 200 -
+2024-11-19 13:30:04,357 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:30:14,207 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:14] "GET /movie/496243 HTTP/1.1" 200 -
+2024-11-19 13:30:14,228 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:30:18,280 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:18] "[32mPOST /movie/496243 HTTP/1.1[0m" 302 -
+2024-11-19 13:30:19,139 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:19] "GET /movie/496243 HTTP/1.1" 200 -
+2024-11-19 13:30:19,156 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:30:24,260 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:24] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:30:24,283 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:30:31,140 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:31] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 13:30:31,411 - INFO - Cache used for key: movie_genres
+2024-11-19 13:30:31,894 - INFO - Cache used for key: trending_movies
+2024-11-19 13:30:31,894 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:30:31,895 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:30:31,896 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:31] "GET / HTTP/1.1" 200 -
+2024-11-19 13:30:31,918 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:30:32,639 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:32] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 13:30:34,497 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:34] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:30:39,982 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:39] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:30:40,257 - INFO - Cache used for key: movie_genres
+2024-11-19 13:30:41,281 - INFO - Cache used for key: trending_movies
+2024-11-19 13:30:41,282 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:30:41,282 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:30:41,283 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:41] "GET / HTTP/1.1" 200 -
+2024-11-19 13:30:41,308 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:30:46,515 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:46] "GET /movie/424 HTTP/1.1" 200 -
+2024-11-19 13:30:46,534 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:30:52,530 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:52] "[32mPOST /movie/424 HTTP/1.1[0m" 302 -
+2024-11-19 13:30:53,426 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:53] "GET /movie/424 HTTP/1.1" 200 -
+2024-11-19 13:30:53,443 - INFO - 127.0.0.1 - - [19/Nov/2024 13:30:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:31:01,523 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:01] "GET /movie/857 HTTP/1.1" 200 -
+2024-11-19 13:31:01,543 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:31:08,225 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:08] "[32mPOST /movie/857 HTTP/1.1[0m" 302 -
+2024-11-19 13:31:09,185 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:09] "GET /movie/857 HTTP/1.1" 200 -
+2024-11-19 13:31:09,203 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:31:14,745 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:14] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 13:31:15,040 - INFO - Cache used for key: movie_genres
+2024-11-19 13:31:15,554 - INFO - Cache used for key: trending_movies
+2024-11-19 13:31:15,556 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:31:15,556 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:31:15,557 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:15] "GET / HTTP/1.1" 200 -
+2024-11-19 13:31:15,580 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:31:16,910 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:16] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:31:21,112 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:21] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:31:21,382 - INFO - Cache used for key: movie_genres
+2024-11-19 13:31:21,899 - INFO - Cache used for key: trending_movies
+2024-11-19 13:31:21,899 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:31:21,899 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:31:21,900 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:21] "GET / HTTP/1.1" 200 -
+2024-11-19 13:31:21,925 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:31:26,694 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:26] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:31:26,714 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:31:55,263 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:55] "GET /movie/857 HTTP/1.1" 200 -
+2024-11-19 13:31:55,285 - INFO - 127.0.0.1 - - [19/Nov/2024 13:31:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:32:01,334 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:01] "GET /movie/424 HTTP/1.1" 200 -
+2024-11-19 13:32:01,358 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:32:15,828 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:15] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 13:32:16,120 - INFO - Cache used for key: movie_genres
+2024-11-19 13:32:17,446 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:17] "GET / HTTP/1.1" 200 -
+2024-11-19 13:32:17,471 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:32:20,476 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:20] "GET /movie/424 HTTP/1.1" 200 -
+2024-11-19 13:32:20,499 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:32:26,137 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:26] "GET /movie/13 HTTP/1.1" 200 -
+2024-11-19 13:32:26,156 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:32:28,569 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:28] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:32:32,572 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:32] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:32:32,846 - INFO - Cache used for key: movie_genres
+2024-11-19 13:32:33,369 - INFO - Cache used for key: trending_movies
+2024-11-19 13:32:33,369 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:32:33,369 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:32:33,371 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:33] "GET / HTTP/1.1" 200 -
+2024-11-19 13:32:33,394 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:32:38,952 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:38] "GET /movie/11216 HTTP/1.1" 200 -
+2024-11-19 13:32:38,972 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:32:42,252 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:42] "[32mPOST /movie/11216 HTTP/1.1[0m" 302 -
+2024-11-19 13:32:43,101 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:43] "GET /movie/11216 HTTP/1.1" 200 -
+2024-11-19 13:32:43,118 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:32:58,967 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:58] "GET /movie/25846 HTTP/1.1" 200 -
+2024-11-19 13:32:58,999 - INFO - 127.0.0.1 - - [19/Nov/2024 13:32:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:33:04,633 - INFO - 127.0.0.1 - - [19/Nov/2024 13:33:04] "[32mPOST /movie/25846 HTTP/1.1[0m" 302 -
+2024-11-19 13:33:05,473 - INFO - 127.0.0.1 - - [19/Nov/2024 13:33:05] "GET /movie/25846 HTTP/1.1" 200 -
+2024-11-19 13:33:05,491 - INFO - 127.0.0.1 - - [19/Nov/2024 13:33:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:33:13,772 - INFO - 127.0.0.1 - - [19/Nov/2024 13:33:13] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 13:33:14,050 - INFO - Cache used for key: movie_genres
+2024-11-19 13:33:14,549 - INFO - Cache used for key: trending_movies
+2024-11-19 13:33:14,549 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:33:14,549 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:33:14,550 - INFO - 127.0.0.1 - - [19/Nov/2024 13:33:14] "GET / HTTP/1.1" 200 -
+2024-11-19 13:33:14,574 - INFO - 127.0.0.1 - - [19/Nov/2024 13:33:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:33:16,194 - INFO - 127.0.0.1 - - [19/Nov/2024 13:33:16] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:33:20,030 - INFO - 127.0.0.1 - - [19/Nov/2024 13:33:20] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:33:20,320 - INFO - Cache used for key: movie_genres
+2024-11-19 13:33:20,829 - INFO - Cache used for key: trending_movies
+2024-11-19 13:33:20,829 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:33:20,829 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:33:20,831 - INFO - 127.0.0.1 - - [19/Nov/2024 13:33:20] "GET / HTTP/1.1" 200 -
+2024-11-19 13:33:20,856 - INFO - 127.0.0.1 - - [19/Nov/2024 13:33:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:33:26,445 - INFO - 127.0.0.1 - - [19/Nov/2024 13:33:26] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:33:26,468 - INFO - 127.0.0.1 - - [19/Nov/2024 13:33:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:35:59,763 - INFO - 127.0.0.1 - - [19/Nov/2024 13:35:59] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 13:36:00,066 - INFO - Cache used for key: movie_genres
+2024-11-19 13:36:00,571 - INFO - Cache used for key: trending_movies
+2024-11-19 13:36:00,571 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:36:00,571 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:36:00,573 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:00] "GET / HTTP/1.1" 200 -
+2024-11-19 13:36:00,597 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:36:01,581 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:01] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 13:36:02,967 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:02] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:36:04,027 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:04] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 13:36:07,238 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:07] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 13:36:07,243 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:07] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:36:10,671 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:10] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:36:10,949 - INFO - Cache used for key: movie_genres
+2024-11-19 13:36:11,454 - INFO - Cache used for key: trending_movies
+2024-11-19 13:36:11,454 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:36:11,455 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:36:11,455 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:11] "GET / HTTP/1.1" 200 -
+2024-11-19 13:36:11,479 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:36:14,482 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:36:14,483 - INFO - Cache used for key: movie_genres
+2024-11-19 13:36:14,978 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:14] "GET /top-rated HTTP/1.1" 200 -
+2024-11-19 13:36:15,000 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:36:19,703 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:19] "GET /movie/429 HTTP/1.1" 200 -
+2024-11-19 13:36:19,729 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:36:23,790 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:23] "[32mPOST /movie/429 HTTP/1.1[0m" 302 -
+2024-11-19 13:36:24,630 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:24] "GET /movie/429 HTTP/1.1" 200 -
+2024-11-19 13:36:24,650 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:36:28,806 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:28] "GET /movie/938 HTTP/1.1" 200 -
+2024-11-19 13:36:28,830 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:36:32,487 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:32] "[32mPOST /movie/938 HTTP/1.1[0m" 302 -
+2024-11-19 13:36:33,304 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:33] "GET /movie/938 HTTP/1.1" 200 -
+2024-11-19 13:36:33,323 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:36:37,543 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:37] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:36:37,570 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:36:43,705 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:43] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 13:36:44,298 - INFO - Cache used for key: movie_genres
+2024-11-19 13:36:44,797 - INFO - Cache used for key: trending_movies
+2024-11-19 13:36:44,798 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:36:44,798 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:36:44,799 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:44] "GET / HTTP/1.1" 200 -
+2024-11-19 13:36:44,821 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:36:46,050 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:46] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 13:36:51,161 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:51] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 13:36:51,166 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:51] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:36:57,146 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:57] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:36:57,435 - INFO - Cache used for key: movie_genres
+2024-11-19 13:36:57,942 - INFO - Cache used for key: trending_movies
+2024-11-19 13:36:57,942 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:36:57,942 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:36:57,943 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:57] "GET / HTTP/1.1" 200 -
+2024-11-19 13:36:57,970 - INFO - 127.0.0.1 - - [19/Nov/2024 13:36:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:37:02,791 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:37:02,792 - INFO - Cache used for key: movie_genres
+2024-11-19 13:37:03,340 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:03] "GET /top-rated HTTP/1.1" 200 -
+2024-11-19 13:37:03,359 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:37:06,870 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:06] "GET /movie/429 HTTP/1.1" 200 -
+2024-11-19 13:37:06,893 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:37:10,893 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:10] "[32mPOST /movie/429 HTTP/1.1[0m" 302 -
+2024-11-19 13:37:11,719 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:11] "GET /movie/429 HTTP/1.1" 200 -
+2024-11-19 13:37:11,739 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:37:14,230 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:14] "GET /movie/938 HTTP/1.1" 200 -
+2024-11-19 13:37:14,252 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:37:18,915 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:18] "[32mPOST /movie/938 HTTP/1.1[0m" 302 -
+2024-11-19 13:37:19,731 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:19] "GET /movie/938 HTTP/1.1" 200 -
+2024-11-19 13:37:19,751 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:37:24,369 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:24] "GET /movie/336 HTTP/1.1" 200 -
+2024-11-19 13:37:24,391 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:37:27,964 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:27] "[32mPOST /movie/336 HTTP/1.1[0m" 302 -
+2024-11-19 13:37:28,788 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:28] "GET /movie/336 HTTP/1.1" 200 -
+2024-11-19 13:37:28,807 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:37:31,878 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:31] "GET /movie/391 HTTP/1.1" 200 -
+2024-11-19 13:37:31,902 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:37:35,871 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:35] "[32mPOST /movie/391 HTTP/1.1[0m" 302 -
+2024-11-19 13:37:36,708 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:36] "GET /movie/391 HTTP/1.1" 200 -
+2024-11-19 13:37:36,734 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:37:39,343 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:39] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 13:37:39,618 - INFO - Cache used for key: movie_genres
+2024-11-19 13:37:40,934 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:40] "GET / HTTP/1.1" 200 -
+2024-11-19 13:37:40,960 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:37:42,026 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:42] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:37:47,728 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:47] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:37:48,013 - INFO - Cache used for key: movie_genres
+2024-11-19 13:37:48,541 - INFO - Cache used for key: trending_movies
+2024-11-19 13:37:48,541 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:37:48,541 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:37:48,543 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:48] "GET / HTTP/1.1" 200 -
+2024-11-19 13:37:48,570 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:37:53,078 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:53] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:37:53,324 - INFO - 127.0.0.1 - - [19/Nov/2024 13:37:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:39:09,610 - INFO - 127.0.0.1 - - [19/Nov/2024 13:39:09] "GET /movie/391 HTTP/1.1" 200 -
+2024-11-19 13:39:09,631 - INFO - 127.0.0.1 - - [19/Nov/2024 13:39:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:49:43,231 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\ba-master (3)\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 13:49:43,340 - INFO -  * Restarting with stat
+2024-11-19 13:49:48,011 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 13:49:48,012 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 13:49:48,013 - INFO -  * Restarting with stat
+2024-11-19 13:49:49,359 - WARNING -  * Debugger is active!
+2024-11-19 13:49:49,363 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 13:50:01,131 - INFO - 127.0.0.1 - - [19/Nov/2024 13:50:01] "GET / HTTP/1.1" 200 -
+2024-11-19 13:50:01,240 - INFO - 127.0.0.1 - - [19/Nov/2024 13:50:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:50:18,203 - INFO - 127.0.0.1 - - [19/Nov/2024 13:50:18] "[35m[1mGET /personalized HTTP/1.1[0m" 500 -
+2024-11-19 13:50:18,243 - INFO - 127.0.0.1 - - [19/Nov/2024 13:50:18] "[36mGET /personalized?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-11-19 13:50:18,259 - INFO - 127.0.0.1 - - [19/Nov/2024 13:50:18] "[36mGET /personalized?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-11-19 13:50:18,297 - INFO - 127.0.0.1 - - [19/Nov/2024 13:50:18] "GET /personalized?__debugger__=yes&cmd=resource&f=console.png&s=t7lLne7TCMnW1it69EAt HTTP/1.1" 200 -
+2024-11-19 13:50:18,313 - INFO - 127.0.0.1 - - [19/Nov/2024 13:50:18] "[36mGET /personalized?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2024-11-19 13:51:14,645 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\ba-master (3)\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 13:51:14,774 - INFO -  * Restarting with stat
+2024-11-19 13:51:16,281 - WARNING -  * Debugger is active!
+2024-11-19 13:51:16,286 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 13:51:21,948 - INFO - 127.0.0.1 - - [19/Nov/2024 13:51:21] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:51:22,054 - INFO - 127.0.0.1 - - [19/Nov/2024 13:51:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:51:33,739 - INFO - 127.0.0.1 - - [19/Nov/2024 13:51:33] "GET / HTTP/1.1" 200 -
+2024-11-19 13:51:33,753 - INFO - 127.0.0.1 - - [19/Nov/2024 13:51:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:53:27,317 - INFO - 127.0.0.1 - - [19/Nov/2024 13:53:27] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 13:53:27,339 - INFO - 127.0.0.1 - - [19/Nov/2024 13:53:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:53:30,309 - INFO - 127.0.0.1 - - [19/Nov/2024 13:53:30] "GET /movie/1100782 HTTP/1.1" 200 -
+2024-11-19 13:53:30,374 - INFO - 127.0.0.1 - - [19/Nov/2024 13:53:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:59:06,564 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 13:59:06,564 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 13:59:06,566 - INFO -  * Restarting with stat
+2024-11-19 13:59:07,923 - WARNING -  * Debugger is active!
+2024-11-19 13:59:07,928 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 13:59:11,282 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:11] "GET / HTTP/1.1" 200 -
+2024-11-19 13:59:11,399 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:59:19,708 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:19] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 13:59:19,993 - INFO - Cache used for key: movie_genres
+2024-11-19 13:59:20,630 - INFO - Cache used for key: trending_movies
+2024-11-19 13:59:20,630 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:59:20,631 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:59:20,632 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:20] "GET / HTTP/1.1" 200 -
+2024-11-19 13:59:20,680 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 13:59:21,945 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:21] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 13:59:36,629 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:36] "POST /auth/register HTTP/1.1" 200 -
+2024-11-19 13:59:45,481 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:45] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:59:46,228 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:46] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 13:59:48,562 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:48] "POST /auth/register HTTP/1.1" 200 -
+2024-11-19 13:59:52,836 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:52] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 13:59:52,840 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:52] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 13:59:54,778 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:54] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 13:59:55,054 - INFO - Cache used for key: movie_genres
+2024-11-19 13:59:55,544 - INFO - Cache used for key: trending_movies
+2024-11-19 13:59:55,545 - INFO - Cache used for key: top_rated_movies
+2024-11-19 13:59:55,545 - INFO - Cache used for key: new_released_movies
+2024-11-19 13:59:55,546 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:55] "GET / HTTP/1.1" 200 -
+2024-11-19 13:59:55,609 - INFO - 127.0.0.1 - - [19/Nov/2024 13:59:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:00:03,958 - INFO - Cached search results for naruot with filters None
+2024-11-19 14:00:03,959 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:03] "GET /autocomplete?q=naruot HTTP/1.1" 200 -
+2024-11-19 14:00:06,691 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:00:06,691 - INFO - Cache used for key: movie_genres
+2024-11-19 14:00:07,214 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:07] "GET /new-released HTTP/1.1" 200 -
+2024-11-19 14:00:07,264 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:00:13,641 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:13] "GET /movie/1371727 HTTP/1.1" 200 -
+2024-11-19 14:00:13,700 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:00:15,577 - INFO - Cached search results for naru with filters None
+2024-11-19 14:00:15,578 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:15] "GET /autocomplete?q=naru HTTP/1.1" 200 -
+2024-11-19 14:00:18,217 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:18] "[32mPOST /movie/1371727 HTTP/1.1[0m" 302 -
+2024-11-19 14:00:19,033 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:19] "GET /movie/1371727 HTTP/1.1" 200 -
+2024-11-19 14:00:19,081 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:00:22,213 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:22] "GET /movie/656353 HTTP/1.1" 200 -
+2024-11-19 14:00:22,266 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:00:25,625 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:25] "[32mPOST /movie/656353 HTTP/1.1[0m" 302 -
+2024-11-19 14:00:26,456 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:26] "GET /movie/656353 HTTP/1.1" 200 -
+2024-11-19 14:00:26,511 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:00:33,746 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:33] "GET /movie/25318 HTTP/1.1" 200 -
+2024-11-19 14:00:33,813 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:00:36,738 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:36] "[32mPOST /movie/25318 HTTP/1.1[0m" 302 -
+2024-11-19 14:00:37,567 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:37] "GET /movie/25318 HTTP/1.1" 200 -
+2024-11-19 14:00:37,615 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:00:39,383 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:39] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:00:39,681 - INFO - Cache used for key: movie_genres
+2024-11-19 14:00:40,192 - INFO - Cache used for key: trending_movies
+2024-11-19 14:00:40,192 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:00:40,192 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:00:40,194 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:40] "GET / HTTP/1.1" 200 -
+2024-11-19 14:00:40,251 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:00:41,081 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:41] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:00:45,593 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:45] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 14:00:45,598 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:45] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:00:47,179 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:47] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:00:47,479 - INFO - Cache used for key: movie_genres
+2024-11-19 14:00:48,017 - INFO - Cache used for key: trending_movies
+2024-11-19 14:00:48,017 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:00:48,017 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:00:48,019 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:48] "GET / HTTP/1.1" 200 -
+2024-11-19 14:00:48,087 - INFO - 127.0.0.1 - - [19/Nov/2024 14:00:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:01:02,717 - INFO - Cache used for key: movie_genres
+2024-11-19 14:01:14,192 - INFO - Cached search results for sing with filters None
+2024-11-19 14:01:14,194 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:14] "GET /autocomplete?q=sing HTTP/1.1" 200 -
+2024-11-19 14:01:14,194 - INFO - Cached search results for sing with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 14:01:14,464 - INFO - Cache used for key: trending_movies
+2024-11-19 14:01:14,465 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:01:14,465 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:01:14,470 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:14] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 14:01:14,535 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:01:16,632 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:16] "GET /movie/1371727 HTTP/1.1" 200 -
+2024-11-19 14:01:16,691 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:01:20,808 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:20] "[32mPOST /movie/1371727 HTTP/1.1[0m" 302 -
+2024-11-19 14:01:21,637 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:21] "GET /movie/1371727 HTTP/1.1" 200 -
+2024-11-19 14:01:21,691 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:01:23,682 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:23] "GET /movie/656353 HTTP/1.1" 200 -
+2024-11-19 14:01:23,735 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:01:27,256 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:27] "[32mPOST /movie/656353 HTTP/1.1[0m" 302 -
+2024-11-19 14:01:28,074 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:28] "GET /movie/656353 HTTP/1.1" 200 -
+2024-11-19 14:01:28,129 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:01:33,102 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:33] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:01:33,137 - INFO - 127.0.0.1 - - [19/Nov/2024 14:01:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:02:31,205 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\ba-master (3)\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 14:02:31,352 - INFO -  * Restarting with stat
+2024-11-19 14:02:32,864 - WARNING -  * Debugger is active!
+2024-11-19 14:02:32,869 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 14:02:40,808 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 14:02:40,809 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 14:02:40,811 - INFO -  * Restarting with stat
+2024-11-19 14:02:42,243 - WARNING -  * Debugger is active!
+2024-11-19 14:02:42,250 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 14:02:44,952 - INFO - 127.0.0.1 - - [19/Nov/2024 14:02:44] "GET / HTTP/1.1" 200 -
+2024-11-19 14:02:45,071 - INFO - 127.0.0.1 - - [19/Nov/2024 14:02:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:02:48,747 - INFO - 127.0.0.1 - - [19/Nov/2024 14:02:48] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:02:48,819 - INFO - 127.0.0.1 - - [19/Nov/2024 14:02:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:08:57,782 - INFO - 127.0.0.1 - - [19/Nov/2024 14:08:57] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:09:03,578 - INFO - Cache used for key: movie_genres
+2024-11-19 14:09:04,909 - INFO - 127.0.0.1 - - [19/Nov/2024 14:09:04] "GET / HTTP/1.1" 200 -
+2024-11-19 14:09:04,973 - INFO - 127.0.0.1 - - [19/Nov/2024 14:09:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:16:40,430 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 14:16:40,431 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 14:16:40,433 - INFO -  * Restarting with stat
+2024-11-19 14:16:41,996 - WARNING -  * Debugger is active!
+2024-11-19 14:16:42,002 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 14:16:44,702 - INFO - 127.0.0.1 - - [19/Nov/2024 14:16:44] "GET / HTTP/1.1" 200 -
+2024-11-19 14:16:44,823 - INFO - 127.0.0.1 - - [19/Nov/2024 14:16:44] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-19 14:16:51,651 - INFO - 127.0.0.1 - - [19/Nov/2024 14:16:51] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:16:55,102 - INFO - 127.0.0.1 - - [19/Nov/2024 14:16:55] "POST /auth/register HTTP/1.1" 200 -
+2024-11-19 14:17:37,572 - INFO - 127.0.0.1 - - [19/Nov/2024 14:17:37] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 14:17:37,580 - INFO - 127.0.0.1 - - [19/Nov/2024 14:17:37] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:17:39,929 - INFO - 127.0.0.1 - - [19/Nov/2024 14:17:39] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:17:40,213 - INFO - Cache used for key: movie_genres
+2024-11-19 14:17:40,748 - INFO - Cache used for key: trending_movies
+2024-11-19 14:17:40,748 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:17:40,749 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:17:40,749 - INFO - 127.0.0.1 - - [19/Nov/2024 14:17:40] "GET / HTTP/1.1" 200 -
+2024-11-19 14:17:40,825 - INFO - 127.0.0.1 - - [19/Nov/2024 14:17:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:17:50,397 - INFO - Cache used for key: movie_genres
+2024-11-19 14:17:51,661 - INFO - Cached search results for one piece with filters None
+2024-11-19 14:17:51,661 - INFO - Cached search results for one piece with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 14:17:51,661 - INFO - 127.0.0.1 - - [19/Nov/2024 14:17:51] "GET /autocomplete?q=one%20piece HTTP/1.1" 200 -
+2024-11-19 14:17:51,938 - INFO - Cache used for key: trending_movies
+2024-11-19 14:17:51,938 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:17:51,938 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:17:51,940 - INFO - 127.0.0.1 - - [19/Nov/2024 14:17:51] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 14:17:51,991 - INFO - 127.0.0.1 - - [19/Nov/2024 14:17:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:17:57,258 - INFO - 127.0.0.1 - - [19/Nov/2024 14:17:57] "GET /movie/900667 HTTP/1.1" 200 -
+2024-11-19 14:17:57,305 - INFO - 127.0.0.1 - - [19/Nov/2024 14:17:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:18:03,135 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:03] "[32mPOST /movie/900667 HTTP/1.1[0m" 302 -
+2024-11-19 14:18:03,957 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:03] "GET /movie/900667 HTTP/1.1" 200 -
+2024-11-19 14:18:03,994 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:18:14,636 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:14] "GET /movie/568012 HTTP/1.1" 200 -
+2024-11-19 14:18:14,689 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:18:19,777 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:19] "[32mPOST /movie/568012 HTTP/1.1[0m" 302 -
+2024-11-19 14:18:20,608 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:20] "GET /movie/568012 HTTP/1.1" 200 -
+2024-11-19 14:18:20,656 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:18:24,064 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:24] "GET /movie/374205 HTTP/1.1" 200 -
+2024-11-19 14:18:24,118 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:18:28,374 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:28] "[32mPOST /movie/374205 HTTP/1.1[0m" 302 -
+2024-11-19 14:18:29,227 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:29] "GET /movie/374205 HTTP/1.1" 200 -
+2024-11-19 14:18:29,275 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:18:32,488 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:32] "GET /movie/568012 HTTP/1.1" 200 -
+2024-11-19 14:18:32,537 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:18:38,477 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:38] "GET /movie/32261 HTTP/1.1" 200 -
+2024-11-19 14:18:38,542 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:18:42,486 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:42] "[32mPOST /movie/32261 HTTP/1.1[0m" 302 -
+2024-11-19 14:18:43,329 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:43] "GET /movie/32261 HTTP/1.1" 200 -
+2024-11-19 14:18:43,379 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:18:46,797 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:46] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:18:47,078 - INFO - Cache used for key: movie_genres
+2024-11-19 14:18:47,587 - INFO - Cache used for key: trending_movies
+2024-11-19 14:18:47,587 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:18:47,587 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:18:47,588 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:47] "GET / HTTP/1.1" 200 -
+2024-11-19 14:18:47,643 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:18:49,318 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:49] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:18:52,639 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:52] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 14:18:52,644 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:52] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:18:55,027 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:55] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:18:55,310 - INFO - Cache used for key: movie_genres
+2024-11-19 14:18:55,890 - INFO - Cache used for key: trending_movies
+2024-11-19 14:18:55,890 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:18:55,890 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:18:55,891 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:55] "GET / HTTP/1.1" 200 -
+2024-11-19 14:18:55,961 - INFO - 127.0.0.1 - - [19/Nov/2024 14:18:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:19:01,592 - INFO - Cache used for key: movie_genres
+2024-11-19 14:19:01,856 - INFO - Cached search results for one pei with filters None
+2024-11-19 14:19:01,857 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:01] "GET /autocomplete?q=one%20pei HTTP/1.1" 200 -
+2024-11-19 14:19:02,955 - INFO - Cached search results for one piecew with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 14:19:02,955 - INFO - Cached search results for one piecew with filters None
+2024-11-19 14:19:02,957 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:02] "GET /autocomplete?q=one%20piecew HTTP/1.1" 200 -
+2024-11-19 14:19:03,453 - INFO - Cache used for key: trending_movies
+2024-11-19 14:19:03,454 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:19:03,454 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:19:03,454 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:03] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 14:19:03,491 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:19:05,511 - INFO - Cache used for key: movie_genres
+2024-11-19 14:19:05,712 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:05] "GET /autocomplete?q=one%20piece HTTP/1.1" 200 -
+2024-11-19 14:19:07,163 - INFO - Cache used for key: movie_genres
+2024-11-19 14:19:10,477 - INFO - Cached search results for ome with filters None
+2024-11-19 14:19:10,478 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:10] "GET /autocomplete?q=ome HTTP/1.1" 200 -
+2024-11-19 14:19:12,684 - INFO - Cache used for key: trending_movies
+2024-11-19 14:19:12,685 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:19:12,685 - INFO - Cache used for key: trending_movies
+2024-11-19 14:19:12,685 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:19:12,685 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:19:12,687 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:12] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 14:19:12,687 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:19:12,690 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:12] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 14:19:12,722 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:19:15,186 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:15] "GET /movie/900667 HTTP/1.1" 200 -
+2024-11-19 14:19:15,215 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:19:18,818 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:18] "[32mPOST /movie/900667 HTTP/1.1[0m" 302 -
+2024-11-19 14:19:19,658 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:19] "GET /movie/900667 HTTP/1.1" 200 -
+2024-11-19 14:19:19,708 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:19:22,239 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:22] "GET /movie/568012 HTTP/1.1" 200 -
+2024-11-19 14:19:22,292 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:19:24,962 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:24] "[32mPOST /movie/568012 HTTP/1.1[0m" 302 -
+2024-11-19 14:19:25,983 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:25] "GET /movie/568012 HTTP/1.1" 200 -
+2024-11-19 14:19:26,036 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:19:28,803 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:28] "GET /movie/374205 HTTP/1.1" 200 -
+2024-11-19 14:19:28,866 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:19:31,701 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:31] "[32mPOST /movie/374205 HTTP/1.1[0m" 302 -
+2024-11-19 14:19:32,515 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:32] "GET /movie/374205 HTTP/1.1" 200 -
+2024-11-19 14:19:32,565 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:19:49,067 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:49] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:19:49,116 - INFO - 127.0.0.1 - - [19/Nov/2024 14:19:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:20:12,385 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:12] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:20:12,692 - INFO - Cache used for key: movie_genres
+2024-11-19 14:20:13,228 - INFO - Cache used for key: trending_movies
+2024-11-19 14:20:13,229 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:20:13,229 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:20:13,231 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:13] "GET / HTTP/1.1" 200 -
+2024-11-19 14:20:13,289 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:20:14,727 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:14] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:20:16,778 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:16] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:20:18,766 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:18] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:20:19,051 - INFO - Cache used for key: movie_genres
+2024-11-19 14:20:19,586 - INFO - Cache used for key: trending_movies
+2024-11-19 14:20:19,586 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:20:19,586 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:20:19,588 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:19] "GET / HTTP/1.1" 200 -
+2024-11-19 14:20:19,653 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:20:23,385 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:23] "GET /movie/402431 HTTP/1.1" 200 -
+2024-11-19 14:20:23,434 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:20:27,633 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:27] "[32mPOST /movie/402431 HTTP/1.1[0m" 302 -
+2024-11-19 14:20:28,458 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:28] "GET /movie/402431 HTTP/1.1" 200 -
+2024-11-19 14:20:28,509 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:20:34,763 - INFO - Cache used for key: movie_genres
+2024-11-19 14:20:35,264 - INFO - Cache used for key: trending_movies
+2024-11-19 14:20:35,264 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:20:35,264 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:20:35,265 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:35] "GET / HTTP/1.1" 200 -
+2024-11-19 14:20:35,315 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:20:38,602 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:38] "GET /movie/558449 HTTP/1.1" 200 -
+2024-11-19 14:20:38,664 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:20:41,980 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:41] "GET /movie/1290287 HTTP/1.1" 200 -
+2024-11-19 14:20:42,050 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:20:48,617 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:48] "[32mPOST /movie/1290287 HTTP/1.1[0m" 302 -
+2024-11-19 14:20:49,444 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:49] "GET /movie/1290287 HTTP/1.1" 200 -
+2024-11-19 14:20:49,501 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:20:58,399 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:58] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:20:58,682 - INFO - Cache used for key: movie_genres
+2024-11-19 14:20:59,170 - INFO - Cache used for key: trending_movies
+2024-11-19 14:20:59,170 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:20:59,170 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:20:59,172 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:59] "GET / HTTP/1.1" 200 -
+2024-11-19 14:20:59,237 - INFO - 127.0.0.1 - - [19/Nov/2024 14:20:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:21:01,603 - INFO - 127.0.0.1 - - [19/Nov/2024 14:21:01] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:21:07,111 - INFO - 127.0.0.1 - - [19/Nov/2024 14:21:07] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:21:13,168 - INFO - 127.0.0.1 - - [19/Nov/2024 14:21:13] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:21:21,952 - INFO - 127.0.0.1 - - [19/Nov/2024 14:21:21] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:21:24,003 - INFO - 127.0.0.1 - - [19/Nov/2024 14:21:24] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:21:24,280 - INFO - Cache used for key: movie_genres
+2024-11-19 14:21:24,800 - INFO - Cache used for key: trending_movies
+2024-11-19 14:21:24,800 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:21:24,800 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:21:24,801 - INFO - 127.0.0.1 - - [19/Nov/2024 14:21:24] "GET / HTTP/1.1" 200 -
+2024-11-19 14:21:24,876 - INFO - 127.0.0.1 - - [19/Nov/2024 14:21:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:21:37,899 - INFO - 127.0.0.1 - - [19/Nov/2024 14:21:37] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:21:37,969 - INFO - 127.0.0.1 - - [19/Nov/2024 14:21:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:33:09,252 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\finale\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 14:33:09,389 - INFO -  * Restarting with stat
+2024-11-19 14:33:10,752 - WARNING -  * Debugger is active!
+2024-11-19 14:33:10,756 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 14:33:22,365 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 14:33:22,365 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 14:33:22,367 - INFO -  * Restarting with stat
+2024-11-19 14:33:23,716 - WARNING -  * Debugger is active!
+2024-11-19 14:33:23,720 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 14:33:26,118 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:26] "GET / HTTP/1.1" 200 -
+2024-11-19 14:33:26,223 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:26] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-19 14:33:26,396 - INFO - Cache used for key: movie_genres
+2024-11-19 14:33:26,902 - INFO - Cache used for key: trending_movies
+2024-11-19 14:33:26,903 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:33:26,903 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:33:26,905 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:26] "GET / HTTP/1.1" 200 -
+2024-11-19 14:33:26,926 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:33:33,139 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:33] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:33:33,163 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:33:37,995 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:37] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:33:38,268 - INFO - Cache used for key: movie_genres
+2024-11-19 14:33:38,757 - INFO - Cache used for key: trending_movies
+2024-11-19 14:33:38,757 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:33:38,757 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:33:38,759 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:38] "GET / HTTP/1.1" 200 -
+2024-11-19 14:33:38,783 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:33:40,871 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:40] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:33:45,773 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:45] "POST /auth/register HTTP/1.1" 200 -
+2024-11-19 14:33:47,142 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:47] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:33:50,666 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:50] "POST /auth/login HTTP/1.1" 200 -
+2024-11-19 14:33:54,405 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:54] "POST /auth/login HTTP/1.1" 200 -
+2024-11-19 14:33:55,780 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:55] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:33:58,974 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:58] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 14:33:58,978 - INFO - 127.0.0.1 - - [19/Nov/2024 14:33:58] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:34:00,877 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:00] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:34:01,176 - INFO - Cache used for key: movie_genres
+2024-11-19 14:34:01,691 - INFO - Cache used for key: trending_movies
+2024-11-19 14:34:01,692 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:34:01,692 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:34:01,693 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:01] "GET / HTTP/1.1" 200 -
+2024-11-19 14:34:01,719 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:34:05,705 - INFO - Cache used for key: movie_genres
+2024-11-19 14:34:06,437 - INFO - Cached search results for one piece with filters None
+2024-11-19 14:34:06,438 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:06] "GET /autocomplete?q=one%20piece HTTP/1.1" 200 -
+2024-11-19 14:34:06,495 - INFO - Cached search results for one piece with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 14:34:06,775 - INFO - Cache used for key: trending_movies
+2024-11-19 14:34:06,776 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:34:06,776 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:34:06,778 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:06] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 14:34:06,801 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:34:08,562 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:08] "GET /movie/900667 HTTP/1.1" 200 -
+2024-11-19 14:34:08,581 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:34:13,061 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:13] "[32mPOST /movie/900667 HTTP/1.1[0m" 302 -
+2024-11-19 14:34:13,923 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:13] "GET /movie/900667 HTTP/1.1" 200 -
+2024-11-19 14:34:13,940 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:34:18,345 - INFO - Cached search results for one p with filters None
+2024-11-19 14:34:18,346 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:18] "GET /autocomplete?q=one%20p HTTP/1.1" 200 -
+2024-11-19 14:34:18,574 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:18] "GET /movie/568012 HTTP/1.1" 200 -
+2024-11-19 14:34:18,597 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:34:22,474 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:22] "[32mPOST /movie/568012 HTTP/1.1[0m" 302 -
+2024-11-19 14:34:23,308 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:23] "GET /movie/568012 HTTP/1.1" 200 -
+2024-11-19 14:34:23,329 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:34:31,239 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:31] "GET /movie/374205 HTTP/1.1" 200 -
+2024-11-19 14:34:31,262 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:34:35,819 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:35] "[32mPOST /movie/374205 HTTP/1.1[0m" 302 -
+2024-11-19 14:34:36,630 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:36] "GET /movie/374205 HTTP/1.1" 200 -
+2024-11-19 14:34:36,651 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:34:40,622 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:40] "GET /movie/376047 HTTP/1.1" 200 -
+2024-11-19 14:34:40,643 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:34:44,833 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:44] "[32mPOST /movie/376047 HTTP/1.1[0m" 302 -
+2024-11-19 14:34:45,707 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:45] "GET /movie/376047 HTTP/1.1" 200 -
+2024-11-19 14:34:45,727 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:34:52,348 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:52] "GET /movie/41498 HTTP/1.1" 200 -
+2024-11-19 14:34:52,371 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:34:56,430 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:56] "[32mPOST /movie/41498 HTTP/1.1[0m" 302 -
+2024-11-19 14:34:57,254 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:57] "GET /movie/41498 HTTP/1.1" 200 -
+2024-11-19 14:34:57,271 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:34:58,165 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:58] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:34:58,449 - INFO - Cache used for key: movie_genres
+2024-11-19 14:34:58,940 - INFO - Cache used for key: trending_movies
+2024-11-19 14:34:58,940 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:34:58,940 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:34:58,942 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:58] "GET / HTTP/1.1" 200 -
+2024-11-19 14:34:58,965 - INFO - 127.0.0.1 - - [19/Nov/2024 14:34:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:35:00,081 - INFO - 127.0.0.1 - - [19/Nov/2024 14:35:00] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:35:02,871 - INFO - 127.0.0.1 - - [19/Nov/2024 14:35:02] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:35:03,167 - INFO - Cache used for key: movie_genres
+2024-11-19 14:35:03,676 - INFO - Cache used for key: trending_movies
+2024-11-19 14:35:03,677 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:35:03,677 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:35:03,678 - INFO - 127.0.0.1 - - [19/Nov/2024 14:35:03] "GET / HTTP/1.1" 200 -
+2024-11-19 14:35:03,703 - INFO - 127.0.0.1 - - [19/Nov/2024 14:35:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:35:25,557 - INFO - 127.0.0.1 - - [19/Nov/2024 14:35:25] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:35:25,584 - INFO - 127.0.0.1 - - [19/Nov/2024 14:35:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:36:41,117 - INFO - 127.0.0.1 - - [19/Nov/2024 14:36:41] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:36:41,422 - INFO - Cache used for key: movie_genres
+2024-11-19 14:36:41,948 - INFO - Cache used for key: trending_movies
+2024-11-19 14:36:41,949 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:36:41,949 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:36:41,951 - INFO - 127.0.0.1 - - [19/Nov/2024 14:36:41] "GET / HTTP/1.1" 200 -
+2024-11-19 14:36:41,975 - INFO - 127.0.0.1 - - [19/Nov/2024 14:36:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:36:43,496 - INFO - 127.0.0.1 - - [19/Nov/2024 14:36:43] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:38:57,772 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 14:38:57,772 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 14:38:57,774 - INFO -  * Restarting with stat
+2024-11-19 14:38:59,391 - WARNING -  * Debugger is active!
+2024-11-19 14:38:59,396 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 14:39:02,075 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:02] "GET / HTTP/1.1" 200 -
+2024-11-19 14:39:02,199 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:39:03,685 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:03] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:39:08,184 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:08] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 14:39:08,193 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:08] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:39:12,069 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:12] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:39:12,361 - INFO - Cache used for key: movie_genres
+2024-11-19 14:39:12,901 - INFO - Cache used for key: trending_movies
+2024-11-19 14:39:12,902 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:39:12,902 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:39:12,903 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:12] "GET / HTTP/1.1" 200 -
+2024-11-19 14:39:12,932 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:39:17,049 - INFO - Cache used for key: movie_genres
+2024-11-19 14:39:19,097 - INFO - Cached search results for spiderman with filters None
+2024-11-19 14:39:19,098 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:19] "GET /autocomplete?q=spiderman HTTP/1.1" 200 -
+2024-11-19 14:39:19,451 - INFO - Cached search results for spiderman with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 14:39:19,729 - INFO - Cache used for key: trending_movies
+2024-11-19 14:39:19,729 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:39:19,729 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:39:19,733 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:19] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 14:39:19,767 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:39:23,033 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:23] "GET /movie/557 HTTP/1.1" 200 -
+2024-11-19 14:39:23,049 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:39:25,782 - INFO - Cached search results for spider with filters None
+2024-11-19 14:39:25,782 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:25] "GET /autocomplete?q=spider HTTP/1.1" 200 -
+2024-11-19 14:39:28,747 - INFO - Cached search results for s with filters None
+2024-11-19 14:39:28,748 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:28] "GET /autocomplete?q=s HTTP/1.1" 200 -
+2024-11-19 14:39:29,158 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:29] "[32mPOST /movie/557 HTTP/1.1[0m" 302 -
+2024-11-19 14:39:29,993 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:29] "GET /movie/557 HTTP/1.1" 200 -
+2024-11-19 14:39:30,011 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:39:33,385 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:33] "GET /movie/672 HTTP/1.1" 200 -
+2024-11-19 14:39:33,407 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:39:38,045 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:38] "[32mPOST /movie/672 HTTP/1.1[0m" 302 -
+2024-11-19 14:39:38,857 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:38] "GET /movie/672 HTTP/1.1" 200 -
+2024-11-19 14:39:38,878 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:39:41,219 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:41] "GET /movie/673 HTTP/1.1" 200 -
+2024-11-19 14:39:41,240 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:39:43,825 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:43] "[32mPOST /movie/673 HTTP/1.1[0m" 302 -
+2024-11-19 14:39:44,640 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:44] "GET /movie/673 HTTP/1.1" 200 -
+2024-11-19 14:39:44,658 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:39:50,994 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:50] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:39:51,018 - INFO - 127.0.0.1 - - [19/Nov/2024 14:39:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:40:16,744 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:16] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:40:17,280 - INFO - Cache used for key: movie_genres
+2024-11-19 14:40:17,779 - INFO - Cache used for key: trending_movies
+2024-11-19 14:40:17,780 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:40:17,780 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:40:17,782 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:17] "GET / HTTP/1.1" 200 -
+2024-11-19 14:40:17,807 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:40:19,049 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:19] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:40:27,559 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:27] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 14:40:27,564 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:27] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:40:33,146 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:33] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:40:33,425 - INFO - Cache used for key: movie_genres
+2024-11-19 14:40:33,935 - INFO - Cache used for key: trending_movies
+2024-11-19 14:40:33,936 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:40:33,936 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:40:33,937 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:33] "GET / HTTP/1.1" 200 -
+2024-11-19 14:40:33,965 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:40:36,724 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:36] "GET /autocomplete?q=s HTTP/1.1" 200 -
+2024-11-19 14:40:38,201 - INFO - Cache used for key: movie_genres
+2024-11-19 14:40:38,427 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:38] "GET /autocomplete?q=spiderman HTTP/1.1" 200 -
+2024-11-19 14:40:39,309 - INFO - Cache used for key: trending_movies
+2024-11-19 14:40:39,310 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:40:39,310 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:40:39,313 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:39] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 14:40:39,337 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:40:43,100 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:43] "GET /movie/557 HTTP/1.1" 200 -
+2024-11-19 14:40:43,121 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:40:46,702 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:46] "[32mPOST /movie/557 HTTP/1.1[0m" 302 -
+2024-11-19 14:40:47,543 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:47] "GET /movie/557 HTTP/1.1" 200 -
+2024-11-19 14:40:47,562 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:40:49,936 - INFO - Cached search results for sp with filters None
+2024-11-19 14:40:49,937 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:49] "GET /autocomplete?q=sp HTTP/1.1" 200 -
+2024-11-19 14:40:52,455 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:52] "GET /movie/672 HTTP/1.1" 200 -
+2024-11-19 14:40:52,485 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:40:55,511 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:55] "[32mPOST /movie/672 HTTP/1.1[0m" 302 -
+2024-11-19 14:40:56,323 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:56] "GET /movie/672 HTTP/1.1" 200 -
+2024-11-19 14:40:56,339 - INFO - 127.0.0.1 - - [19/Nov/2024 14:40:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:41:02,268 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:02] "GET /movie/673 HTTP/1.1" 200 -
+2024-11-19 14:41:02,289 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:41:05,453 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:05] "[32mPOST /movie/673 HTTP/1.1[0m" 302 -
+2024-11-19 14:41:06,283 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:06] "GET /movie/673 HTTP/1.1" 200 -
+2024-11-19 14:41:06,300 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:41:16,689 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:16] "GET /movie/9799 HTTP/1.1" 200 -
+2024-11-19 14:41:16,713 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:41:19,977 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:19] "[32mPOST /movie/9799 HTTP/1.1[0m" 302 -
+2024-11-19 14:41:20,833 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:20] "GET /movie/9799 HTTP/1.1" 200 -
+2024-11-19 14:41:20,851 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:41:26,829 - INFO - Cached search results for titatnic with filters None
+2024-11-19 14:41:26,830 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:26] "GET /autocomplete?q=titatnic HTTP/1.1" 200 -
+2024-11-19 14:41:26,878 - INFO - Cached search results for titat with filters None
+2024-11-19 14:41:26,878 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:26] "GET /autocomplete?q=titat HTTP/1.1" 200 -
+2024-11-19 14:41:27,663 - INFO - Cached search results for titatni with filters None
+2024-11-19 14:41:27,664 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:27] "GET /autocomplete?q=titatni HTTP/1.1" 200 -
+2024-11-19 14:41:31,058 - INFO - Cache used for key: movie_genres
+2024-11-19 14:41:31,109 - INFO - Cached search results for titai with filters None
+2024-11-19 14:41:31,109 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:31] "GET /autocomplete?q=titai HTTP/1.1" 200 -
+2024-11-19 14:41:35,951 - INFO - Cached search results for tita with filters None
+2024-11-19 14:41:35,952 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:35] "GET /autocomplete?q=tita HTTP/1.1" 200 -
+2024-11-19 14:41:35,954 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:35] "GET /autocomplete?q=tita HTTP/1.1" 200 -
+2024-11-19 14:41:35,958 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:35] "GET /autocomplete?q=tita HTTP/1.1" 200 -
+2024-11-19 14:41:35,961 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:35] "GET /autocomplete?q=tita HTTP/1.1" 200 -
+2024-11-19 14:41:39,593 - INFO - Cached search results for ta with filters None
+2024-11-19 14:41:39,594 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:39] "GET /autocomplete?q=ta HTTP/1.1" 200 -
+2024-11-19 14:41:42,978 - INFO - Cached search results for titanic with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 14:41:42,982 - INFO - Cached search results for titanic with filters None
+2024-11-19 14:41:42,983 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:42] "GET /autocomplete?q=titanic HTTP/1.1" 200 -
+2024-11-19 14:41:43,251 - INFO - Cache used for key: trending_movies
+2024-11-19 14:41:43,251 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:41:43,251 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:41:43,256 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:43] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 14:41:43,279 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:41:46,064 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:46] "GET /movie/597 HTTP/1.1" 200 -
+2024-11-19 14:41:46,081 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:41:49,695 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:49] "[32mPOST /movie/597 HTTP/1.1[0m" 302 -
+2024-11-19 14:41:50,524 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:50] "GET /movie/597 HTTP/1.1" 200 -
+2024-11-19 14:41:50,545 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:41:52,815 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:52] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:41:53,089 - INFO - Cache used for key: movie_genres
+2024-11-19 14:41:53,618 - INFO - Cache used for key: trending_movies
+2024-11-19 14:41:53,618 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:41:53,619 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:41:53,621 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:53] "GET / HTTP/1.1" 200 -
+2024-11-19 14:41:53,642 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:41:54,823 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:54] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:41:58,184 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:58] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 14:41:58,189 - INFO - 127.0.0.1 - - [19/Nov/2024 14:41:58] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:42:05,762 - INFO - 127.0.0.1 - - [19/Nov/2024 14:42:05] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:42:06,051 - INFO - Cache used for key: movie_genres
+2024-11-19 14:42:06,557 - INFO - Cache used for key: trending_movies
+2024-11-19 14:42:06,558 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:42:06,558 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:42:06,559 - INFO - 127.0.0.1 - - [19/Nov/2024 14:42:06] "GET / HTTP/1.1" 200 -
+2024-11-19 14:42:06,584 - INFO - 127.0.0.1 - - [19/Nov/2024 14:42:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:42:07,566 - INFO - 127.0.0.1 - - [19/Nov/2024 14:42:07] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:42:07,596 - INFO - 127.0.0.1 - - [19/Nov/2024 14:42:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:42:37,045 - INFO - 127.0.0.1 - - [19/Nov/2024 14:42:37] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:42:37,347 - INFO - Cache used for key: movie_genres
+2024-11-19 14:42:37,858 - INFO - Cache used for key: trending_movies
+2024-11-19 14:42:37,858 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:42:37,858 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:42:37,860 - INFO - 127.0.0.1 - - [19/Nov/2024 14:42:37] "GET / HTTP/1.1" 200 -
+2024-11-19 14:42:37,885 - INFO - 127.0.0.1 - - [19/Nov/2024 14:42:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:42:38,106 - INFO - 127.0.0.1 - - [19/Nov/2024 14:42:38] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:42:45,893 - INFO - 127.0.0.1 - - [19/Nov/2024 14:42:45] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:42:50,173 - INFO - 127.0.0.1 - - [19/Nov/2024 14:42:50] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:42:50,464 - INFO - Cache used for key: movie_genres
+2024-11-19 14:42:50,972 - INFO - Cache used for key: trending_movies
+2024-11-19 14:42:50,972 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:42:50,973 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:42:50,974 - INFO - 127.0.0.1 - - [19/Nov/2024 14:42:50] "GET / HTTP/1.1" 200 -
+2024-11-19 14:42:50,998 - INFO - 127.0.0.1 - - [19/Nov/2024 14:42:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:43:01,979 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:01] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:43:02,003 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:43:16,607 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:16] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:43:16,893 - INFO - Cache used for key: movie_genres
+2024-11-19 14:43:17,397 - INFO - Cache used for key: trending_movies
+2024-11-19 14:43:17,397 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:43:17,398 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:43:17,399 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:17] "GET / HTTP/1.1" 200 -
+2024-11-19 14:43:17,421 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:43:18,416 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:18] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:43:25,080 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:25] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:43:28,426 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:28] "POST /auth/login HTTP/1.1" 200 -
+2024-11-19 14:43:32,873 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:32] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:43:33,148 - INFO - Cache used for key: movie_genres
+2024-11-19 14:43:33,673 - INFO - Cache used for key: trending_movies
+2024-11-19 14:43:33,673 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:43:33,673 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:43:33,675 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:33] "GET / HTTP/1.1" 200 -
+2024-11-19 14:43:33,724 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:43:38,041 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:38] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 14:43:38,063 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:43:41,643 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:41] "[32mPOST /movie/533535 HTTP/1.1[0m" 302 -
+2024-11-19 14:43:43,066 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:43] "GET /movie/533535 HTTP/1.1" 200 -
+2024-11-19 14:43:43,084 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:43:46,616 - INFO - Cache used for key: movie_genres
+2024-11-19 14:43:47,009 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:47] "GET /autocomplete?q=spiderman HTTP/1.1" 200 -
+2024-11-19 14:43:47,399 - INFO - Cache used for key: trending_movies
+2024-11-19 14:43:47,399 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:43:47,399 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:43:47,403 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:47] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 14:43:47,433 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:43:51,225 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:51] "GET /movie/225914 HTTP/1.1" 200 -
+2024-11-19 14:43:51,248 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:43:54,911 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:54] "[32mPOST /movie/225914 HTTP/1.1[0m" 302 -
+2024-11-19 14:43:55,732 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:55] "GET /movie/225914 HTTP/1.1" 200 -
+2024-11-19 14:43:55,749 - INFO - 127.0.0.1 - - [19/Nov/2024 14:43:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:44:09,559 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:09] "GET /movie/557 HTTP/1.1" 200 -
+2024-11-19 14:44:09,582 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:44:14,419 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:14] "GET /movie/324857 HTTP/1.1" 200 -
+2024-11-19 14:44:14,441 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:44:17,817 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:17] "[32mPOST /movie/324857 HTTP/1.1[0m" 302 -
+2024-11-19 14:44:18,679 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:18] "GET /movie/324857 HTTP/1.1" 200 -
+2024-11-19 14:44:18,699 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:44:20,282 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:20] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:44:20,557 - INFO - Cache used for key: movie_genres
+2024-11-19 14:44:22,143 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:22] "GET / HTTP/1.1" 200 -
+2024-11-19 14:44:22,166 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:44:23,486 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:23] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:44:28,043 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:28] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:44:28,332 - INFO - Cache used for key: movie_genres
+2024-11-19 14:44:28,850 - INFO - Cache used for key: trending_movies
+2024-11-19 14:44:28,850 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:44:28,850 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:44:28,851 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:28] "GET / HTTP/1.1" 200 -
+2024-11-19 14:44:28,877 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:44:40,937 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:40] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:44:40,963 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:44:57,051 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:57] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:44:57,387 - INFO - Cache used for key: movie_genres
+2024-11-19 14:44:57,889 - INFO - Cache used for key: trending_movies
+2024-11-19 14:44:57,890 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:44:57,890 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:44:57,891 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:57] "GET / HTTP/1.1" 200 -
+2024-11-19 14:44:57,916 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:44:58,805 - INFO - 127.0.0.1 - - [19/Nov/2024 14:44:58] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:45:05,718 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:05] "POST /auth/register HTTP/1.1" 200 -
+2024-11-19 14:45:07,791 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:07] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:45:10,241 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:10] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:45:10,523 - INFO - Cache used for key: movie_genres
+2024-11-19 14:45:11,052 - INFO - Cache used for key: trending_movies
+2024-11-19 14:45:11,053 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:45:11,053 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:45:11,055 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:11] "GET / HTTP/1.1" 200 -
+2024-11-19 14:45:11,078 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:45:13,810 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:13] "GET /autocomplete?q=s HTTP/1.1" 200 -
+2024-11-19 14:45:15,087 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:15] "GET /autocomplete?q=spider HTTP/1.1" 200 -
+2024-11-19 14:45:18,026 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:18] "GET /movie/557 HTTP/1.1" 200 -
+2024-11-19 14:45:18,049 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:45:23,946 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:23] "GET /movie/558 HTTP/1.1" 200 -
+2024-11-19 14:45:23,967 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:45:27,120 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:27] "[32mPOST /movie/558 HTTP/1.1[0m" 302 -
+2024-11-19 14:45:28,191 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:28] "GET /movie/558 HTTP/1.1" 200 -
+2024-11-19 14:45:28,210 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:45:32,811 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:32] "GET /movie/559 HTTP/1.1" 200 -
+2024-11-19 14:45:32,837 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:45:36,100 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:36] "[32mPOST /movie/559 HTTP/1.1[0m" 302 -
+2024-11-19 14:45:36,939 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:36] "GET /movie/559 HTTP/1.1" 200 -
+2024-11-19 14:45:36,958 - INFO - 127.0.0.1 - - [19/Nov/2024 14:45:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:46:04,157 - INFO - 127.0.0.1 - - [19/Nov/2024 14:46:04] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:46:04,179 - INFO - 127.0.0.1 - - [19/Nov/2024 14:46:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:46:14,172 - INFO - 127.0.0.1 - - [19/Nov/2024 14:46:14] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:46:14,446 - INFO - Cache used for key: movie_genres
+2024-11-19 14:46:14,981 - INFO - Cache used for key: trending_movies
+2024-11-19 14:46:14,983 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:46:14,983 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:46:14,984 - INFO - 127.0.0.1 - - [19/Nov/2024 14:46:14] "GET / HTTP/1.1" 200 -
+2024-11-19 14:46:15,007 - INFO - 127.0.0.1 - - [19/Nov/2024 14:46:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:46:15,762 - INFO - 127.0.0.1 - - [19/Nov/2024 14:46:15] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:46:17,337 - INFO - 127.0.0.1 - - [19/Nov/2024 14:46:17] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:46:22,849 - INFO - 127.0.0.1 - - [19/Nov/2024 14:46:22] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:46:23,158 - INFO - Cache used for key: movie_genres
+2024-11-19 14:46:23,671 - INFO - Cache used for key: trending_movies
+2024-11-19 14:46:23,671 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:46:23,671 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:46:23,672 - INFO - 127.0.0.1 - - [19/Nov/2024 14:46:23] "GET / HTTP/1.1" 200 -
+2024-11-19 14:46:23,702 - INFO - 127.0.0.1 - - [19/Nov/2024 14:46:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:46:40,098 - INFO - 127.0.0.1 - - [19/Nov/2024 14:46:40] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:46:40,124 - INFO - 127.0.0.1 - - [19/Nov/2024 14:46:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:47:19,742 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 14:47:19,742 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 14:47:19,743 - INFO -  * Restarting with stat
+2024-11-19 14:47:21,254 - WARNING -  * Debugger is active!
+2024-11-19 14:47:21,260 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 14:47:23,989 - INFO - 127.0.0.1 - - [19/Nov/2024 14:47:23] "GET / HTTP/1.1" 200 -
+2024-11-19 14:47:24,106 - INFO - 127.0.0.1 - - [19/Nov/2024 14:47:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:47:30,373 - INFO - 127.0.0.1 - - [19/Nov/2024 14:47:30] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:47:38,317 - INFO - 127.0.0.1 - - [19/Nov/2024 14:47:38] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 14:47:38,327 - INFO - 127.0.0.1 - - [19/Nov/2024 14:47:38] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:47:41,809 - INFO - 127.0.0.1 - - [19/Nov/2024 14:47:41] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:47:42,096 - INFO - Cache used for key: movie_genres
+2024-11-19 14:47:42,591 - INFO - Cache used for key: trending_movies
+2024-11-19 14:47:42,591 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:47:42,591 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:47:42,593 - INFO - 127.0.0.1 - - [19/Nov/2024 14:47:42] "GET / HTTP/1.1" 200 -
+2024-11-19 14:47:42,616 - INFO - 127.0.0.1 - - [19/Nov/2024 14:47:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:47:49,925 - INFO - 127.0.0.1 - - [19/Nov/2024 14:47:49] "GET /movie/558449 HTTP/1.1" 200 -
+2024-11-19 14:47:49,943 - INFO - 127.0.0.1 - - [19/Nov/2024 14:47:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:47:53,876 - INFO - 127.0.0.1 - - [19/Nov/2024 14:47:53] "[32mPOST /movie/558449 HTTP/1.1[0m" 302 -
+2024-11-19 14:47:54,700 - INFO - 127.0.0.1 - - [19/Nov/2024 14:47:54] "GET /movie/558449 HTTP/1.1" 200 -
+2024-11-19 14:47:54,720 - INFO - 127.0.0.1 - - [19/Nov/2024 14:47:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:48:02,505 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:02] "GET /movie/462347 HTTP/1.1" 200 -
+2024-11-19 14:48:02,529 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:48:12,030 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:12] "GET /movie/912649 HTTP/1.1" 200 -
+2024-11-19 14:48:12,050 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:48:16,878 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:16] "[32mPOST /movie/912649 HTTP/1.1[0m" 302 -
+2024-11-19 14:48:17,704 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:17] "GET /movie/912649 HTTP/1.1" 200 -
+2024-11-19 14:48:17,721 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:48:24,903 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:24] "GET /movie/845781 HTTP/1.1" 200 -
+2024-11-19 14:48:24,924 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:48:28,262 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:28] "[32mPOST /movie/845781 HTTP/1.1[0m" 302 -
+2024-11-19 14:48:29,091 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:29] "GET /movie/845781 HTTP/1.1" 200 -
+2024-11-19 14:48:29,108 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:48:30,708 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:30] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:48:30,983 - INFO - Cache used for key: movie_genres
+2024-11-19 14:48:31,481 - INFO - Cache used for key: trending_movies
+2024-11-19 14:48:31,482 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:48:31,482 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:48:31,484 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:31] "GET / HTTP/1.1" 200 -
+2024-11-19 14:48:31,511 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:48:33,210 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:33] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:48:37,709 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:37] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 14:48:37,713 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:37] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:48:41,803 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:41] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:48:42,110 - INFO - Cache used for key: movie_genres
+2024-11-19 14:48:42,637 - INFO - Cache used for key: trending_movies
+2024-11-19 14:48:42,637 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:48:42,637 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:48:42,638 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:42] "GET / HTTP/1.1" 200 -
+2024-11-19 14:48:42,662 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:48:47,114 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:47] "GET /movie/558449 HTTP/1.1" 200 -
+2024-11-19 14:48:47,136 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:48:50,747 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:50] "[32mPOST /movie/558449 HTTP/1.1[0m" 302 -
+2024-11-19 14:48:51,844 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:51] "GET /movie/558449 HTTP/1.1" 200 -
+2024-11-19 14:48:51,860 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:48:56,191 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:56] "GET /movie/912649 HTTP/1.1" 200 -
+2024-11-19 14:48:56,209 - INFO - 127.0.0.1 - - [19/Nov/2024 14:48:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:49:00,619 - INFO - 127.0.0.1 - - [19/Nov/2024 14:49:00] "[32mPOST /movie/912649 HTTP/1.1[0m" 302 -
+2024-11-19 14:49:01,445 - INFO - 127.0.0.1 - - [19/Nov/2024 14:49:01] "GET /movie/912649 HTTP/1.1" 200 -
+2024-11-19 14:49:01,464 - INFO - 127.0.0.1 - - [19/Nov/2024 14:49:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:49:09,805 - INFO - 127.0.0.1 - - [19/Nov/2024 14:49:09] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:49:09,828 - INFO - 127.0.0.1 - - [19/Nov/2024 14:49:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:51:00,048 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\finale\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 14:51:00,193 - INFO -  * Restarting with stat
+2024-11-19 14:51:01,707 - WARNING -  * Debugger is active!
+2024-11-19 14:51:01,712 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 14:51:10,635 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:10] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:51:10,771 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:10] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:51:15,841 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:15] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:51:17,989 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:17] "GET / HTTP/1.1" 200 -
+2024-11-19 14:51:18,014 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:51:19,214 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:19] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:51:25,800 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:25] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 14:51:25,808 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:25] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:51:28,538 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:28] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:51:28,830 - INFO - Cache used for key: movie_genres
+2024-11-19 14:51:29,365 - INFO - Cache used for key: trending_movies
+2024-11-19 14:51:29,365 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:51:29,365 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:51:29,366 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:29] "GET / HTTP/1.1" 200 -
+2024-11-19 14:51:29,391 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:51:36,136 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:36] "GET /movie/558449 HTTP/1.1" 200 -
+2024-11-19 14:51:36,157 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:51:41,189 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:41] "[32mPOST /movie/558449 HTTP/1.1[0m" 302 -
+2024-11-19 14:51:42,038 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:42] "GET /movie/558449 HTTP/1.1" 200 -
+2024-11-19 14:51:42,068 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:51:45,434 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:45] "GET /movie/462347 HTTP/1.1" 200 -
+2024-11-19 14:51:45,453 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:51:49,837 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:49] "[32mPOST /movie/462347 HTTP/1.1[0m" 302 -
+2024-11-19 14:51:50,653 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:50] "GET /movie/462347 HTTP/1.1" 200 -
+2024-11-19 14:51:50,671 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:51:53,443 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:53] "GET /movie/529962 HTTP/1.1" 200 -
+2024-11-19 14:51:53,464 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:51:58,535 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:58] "[32mPOST /movie/529962 HTTP/1.1[0m" 302 -
+2024-11-19 14:51:59,622 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:59] "GET /movie/529962 HTTP/1.1" 200 -
+2024-11-19 14:51:59,639 - INFO - 127.0.0.1 - - [19/Nov/2024 14:51:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:52:07,038 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:07] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:52:07,062 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:52:14,053 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:14] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:52:14,328 - INFO - Cache used for key: movie_genres
+2024-11-19 14:52:14,846 - INFO - Cache used for key: trending_movies
+2024-11-19 14:52:14,846 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:52:14,846 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:52:14,848 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:14] "GET / HTTP/1.1" 200 -
+2024-11-19 14:52:14,875 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:52:17,024 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:17] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:52:22,160 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:22] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 14:52:22,165 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:22] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:52:25,878 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:25] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:52:26,156 - INFO - Cache used for key: movie_genres
+2024-11-19 14:52:26,673 - INFO - Cache used for key: trending_movies
+2024-11-19 14:52:26,673 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:52:26,673 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:52:26,675 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:26] "GET / HTTP/1.1" 200 -
+2024-11-19 14:52:26,699 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:52:31,336 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:31] "GET /movie/558449 HTTP/1.1" 200 -
+2024-11-19 14:52:31,358 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:52:36,969 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:36] "[32mPOST /movie/558449 HTTP/1.1[0m" 302 -
+2024-11-19 14:52:37,815 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:37] "GET /movie/558449 HTTP/1.1" 200 -
+2024-11-19 14:52:37,833 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:52:39,949 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:39] "GET /movie/462347 HTTP/1.1" 200 -
+2024-11-19 14:52:39,972 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:52:43,809 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:43] "[32mPOST /movie/462347 HTTP/1.1[0m" 302 -
+2024-11-19 14:52:44,631 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:44] "GET /movie/462347 HTTP/1.1" 200 -
+2024-11-19 14:52:44,655 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:52:50,835 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:50] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:52:50,859 - INFO - 127.0.0.1 - - [19/Nov/2024 14:52:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:53:51,721 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\finale\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 14:53:51,849 - INFO -  * Restarting with stat
+2024-11-19 14:53:53,244 - WARNING -  * Debugger is active!
+2024-11-19 14:53:53,250 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 14:54:03,746 - INFO - 127.0.0.1 - - [19/Nov/2024 14:54:03] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:54:05,667 - INFO - 127.0.0.1 - - [19/Nov/2024 14:54:05] "GET / HTTP/1.1" 200 -
+2024-11-19 14:54:05,773 - INFO - 127.0.0.1 - - [19/Nov/2024 14:54:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:54:07,284 - INFO - 127.0.0.1 - - [19/Nov/2024 14:54:07] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:54:10,991 - INFO - 127.0.0.1 - - [19/Nov/2024 14:54:10] "POST /auth/register HTTP/1.1" 200 -
+2024-11-19 14:54:16,413 - INFO - 127.0.0.1 - - [19/Nov/2024 14:54:16] "POST /auth/register HTTP/1.1" 200 -
+2024-11-19 14:54:19,539 - INFO - 127.0.0.1 - - [19/Nov/2024 14:54:19] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:54:24,243 - INFO - 127.0.0.1 - - [19/Nov/2024 14:54:24] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:54:24,517 - INFO - Cache used for key: movie_genres
+2024-11-19 14:54:24,997 - INFO - Cache used for key: trending_movies
+2024-11-19 14:54:24,998 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:54:24,998 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:54:24,999 - INFO - 127.0.0.1 - - [19/Nov/2024 14:54:24] "GET / HTTP/1.1" 200 -
+2024-11-19 14:54:25,021 - INFO - 127.0.0.1 - - [19/Nov/2024 14:54:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:54:34,878 - INFO - 127.0.0.1 - - [19/Nov/2024 14:54:34] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:54:34,902 - INFO - 127.0.0.1 - - [19/Nov/2024 14:54:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:55:24,987 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 14:55:24,988 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 14:55:24,989 - INFO -  * Restarting with stat
+2024-11-19 14:55:26,343 - WARNING -  * Debugger is active!
+2024-11-19 14:55:26,349 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 14:55:29,380 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:29] "GET / HTTP/1.1" 200 -
+2024-11-19 14:55:29,481 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:55:33,072 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:33] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:55:39,845 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:39] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 14:55:39,854 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:39] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:55:42,429 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:42] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:55:42,721 - INFO - Cache used for key: movie_genres
+2024-11-19 14:55:43,276 - INFO - Cache used for key: trending_movies
+2024-11-19 14:55:43,276 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:55:43,276 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:55:43,279 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:43] "GET / HTTP/1.1" 200 -
+2024-11-19 14:55:43,306 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:55:46,775 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:46] "GET /movie/278 HTTP/1.1" 200 -
+2024-11-19 14:55:46,797 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:55:51,014 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:51] "[32mPOST /movie/278 HTTP/1.1[0m" 302 -
+2024-11-19 14:55:51,845 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:51] "GET /movie/278 HTTP/1.1" 200 -
+2024-11-19 14:55:51,866 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:55:54,918 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:54] "GET /movie/238 HTTP/1.1" 200 -
+2024-11-19 14:55:54,937 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:55:58,413 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:58] "[32mPOST /movie/238 HTTP/1.1[0m" 302 -
+2024-11-19 14:55:59,249 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:59] "GET /movie/238 HTTP/1.1" 200 -
+2024-11-19 14:55:59,266 - INFO - 127.0.0.1 - - [19/Nov/2024 14:55:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:56:02,523 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:02] "GET /movie/240 HTTP/1.1" 200 -
+2024-11-19 14:56:02,541 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:56:05,725 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:05] "[32mPOST /movie/240 HTTP/1.1[0m" 302 -
+2024-11-19 14:56:06,543 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:06] "GET /movie/240 HTTP/1.1" 200 -
+2024-11-19 14:56:06,562 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:56:14,374 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:14] "GET /movie/129 HTTP/1.1" 200 -
+2024-11-19 14:56:14,397 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:56:18,006 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:18] "[32mPOST /movie/129 HTTP/1.1[0m" 302 -
+2024-11-19 14:56:18,843 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:18] "GET /movie/129 HTTP/1.1" 200 -
+2024-11-19 14:56:18,862 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:56:21,642 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:21] "GET /movie/372058 HTTP/1.1" 200 -
+2024-11-19 14:56:21,665 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:56:25,068 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:25] "[32mPOST /movie/372058 HTTP/1.1[0m" 302 -
+2024-11-19 14:56:25,943 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:25] "GET /movie/372058 HTTP/1.1" 200 -
+2024-11-19 14:56:25,961 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:56:27,046 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:27] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 14:56:27,343 - INFO - Cache used for key: movie_genres
+2024-11-19 14:56:27,854 - INFO - Cache used for key: trending_movies
+2024-11-19 14:56:27,854 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:56:27,855 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:56:27,856 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:27] "GET / HTTP/1.1" 200 -
+2024-11-19 14:56:27,878 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:56:29,222 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:29] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 14:56:32,943 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:32] "[32mPOST /auth/register HTTP/1.1[0m" 302 -
+2024-11-19 14:56:32,947 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:32] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 14:56:36,936 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:36] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 14:56:37,221 - INFO - Cache used for key: movie_genres
+2024-11-19 14:56:37,731 - INFO - Cache used for key: trending_movies
+2024-11-19 14:56:37,731 - INFO - Cache used for key: top_rated_movies
+2024-11-19 14:56:37,732 - INFO - Cache used for key: new_released_movies
+2024-11-19 14:56:37,733 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:37] "GET / HTTP/1.1" 200 -
+2024-11-19 14:56:37,760 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:37] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:56:40,402 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:40] "GET /movie/278 HTTP/1.1" 200 -
+2024-11-19 14:56:40,423 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:56:44,024 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:44] "[32mPOST /movie/278 HTTP/1.1[0m" 302 -
+2024-11-19 14:56:44,873 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:44] "GET /movie/278 HTTP/1.1" 200 -
+2024-11-19 14:56:44,890 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:56:46,992 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:46] "GET /movie/238 HTTP/1.1" 200 -
+2024-11-19 14:56:47,021 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:56:50,562 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:50] "[32mPOST /movie/238 HTTP/1.1[0m" 302 -
+2024-11-19 14:56:51,408 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:51] "GET /movie/238 HTTP/1.1" 200 -
+2024-11-19 14:56:51,425 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:56:57,954 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:57] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:56:57,976 - INFO - 127.0.0.1 - - [19/Nov/2024 14:56:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:57:04,841 - INFO - 127.0.0.1 - - [19/Nov/2024 14:57:04] "GET /movie/240 HTTP/1.1" 200 -
+2024-11-19 14:57:04,861 - INFO - 127.0.0.1 - - [19/Nov/2024 14:57:04] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:57:08,893 - INFO - 127.0.0.1 - - [19/Nov/2024 14:57:08] "[32mPOST /movie/240 HTTP/1.1[0m" 302 -
+2024-11-19 14:57:09,709 - INFO - 127.0.0.1 - - [19/Nov/2024 14:57:09] "GET /movie/240 HTTP/1.1" 200 -
+2024-11-19 14:57:09,730 - INFO - 127.0.0.1 - - [19/Nov/2024 14:57:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:57:22,091 - INFO - 127.0.0.1 - - [19/Nov/2024 14:57:22] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 14:57:22,110 - INFO - 127.0.0.1 - - [19/Nov/2024 14:57:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 14:59:29,776 - INFO - 127.0.0.1 - - [19/Nov/2024 14:59:29] "GET /movie/238 HTTP/1.1" 200 -
+2024-11-19 14:59:37,299 - INFO - 127.0.0.1 - - [19/Nov/2024 14:59:37] "GET /movie/278 HTTP/1.1" 200 -
+2024-11-19 14:59:48,666 - INFO - 127.0.0.1 - - [19/Nov/2024 14:59:48] "GET /movie/372058 HTTP/1.1" 200 -
+2024-11-19 14:59:48,687 - INFO - 127.0.0.1 - - [19/Nov/2024 14:59:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:00:03,574 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:03] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:00:03,601 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:00:07,604 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:07] "GET /movie/129 HTTP/1.1" 200 -
+2024-11-19 15:00:07,629 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:00:41,148 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:41] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:00:41,167 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:00:49,721 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:49] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 15:00:50,313 - INFO - Cache used for key: movie_genres
+2024-11-19 15:00:52,816 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:52] "GET / HTTP/1.1" 200 -
+2024-11-19 15:00:52,846 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:00:54,318 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:54] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 15:00:57,055 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:57] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 15:00:57,352 - INFO - Cache used for key: movie_genres
+2024-11-19 15:00:57,887 - INFO - Cache used for key: trending_movies
+2024-11-19 15:00:57,887 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:00:57,887 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:00:57,889 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:57] "GET / HTTP/1.1" 200 -
+2024-11-19 15:00:57,912 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:00:59,045 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:59] "GET /movie/558449 HTTP/1.1" 200 -
+2024-11-19 15:00:59,295 - INFO - 127.0.0.1 - - [19/Nov/2024 15:00:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:01:05,273 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:05] "GET /movie/1034541 HTTP/1.1" 200 -
+2024-11-19 15:01:05,292 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:01:09,079 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:09] "[32mPOST /movie/1034541 HTTP/1.1[0m" 302 -
+2024-11-19 15:01:09,895 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:09] "GET /movie/1034541 HTTP/1.1" 200 -
+2024-11-19 15:01:09,913 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:01:11,439 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:11] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 15:01:11,710 - INFO - Cache used for key: movie_genres
+2024-11-19 15:01:12,229 - INFO - Cache used for key: trending_movies
+2024-11-19 15:01:12,229 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:01:12,230 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:01:12,232 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:12] "GET / HTTP/1.1" 200 -
+2024-11-19 15:01:12,252 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:01:13,185 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:13] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 15:01:16,503 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:16] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 15:01:16,776 - INFO - Cache used for key: movie_genres
+2024-11-19 15:01:17,300 - INFO - Cache used for key: trending_movies
+2024-11-19 15:01:17,300 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:01:17,300 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:01:17,301 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:17] "GET / HTTP/1.1" 200 -
+2024-11-19 15:01:17,324 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:01:30,116 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:30] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:01:30,140 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:01:40,656 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:40] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 15:01:40,945 - INFO - Cache used for key: movie_genres
+2024-11-19 15:01:41,466 - INFO - Cache used for key: trending_movies
+2024-11-19 15:01:41,466 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:01:41,466 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:01:41,468 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:41] "GET / HTTP/1.1" 200 -
+2024-11-19 15:01:41,492 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:01:45,019 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:45] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 15:01:48,621 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:48] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 15:01:48,891 - INFO - Cache used for key: movie_genres
+2024-11-19 15:01:49,394 - INFO - Cache used for key: trending_movies
+2024-11-19 15:01:49,395 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:01:49,395 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:01:49,397 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:49] "GET / HTTP/1.1" 200 -
+2024-11-19 15:01:49,421 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:01:56,060 - INFO - Cache used for key: movie_genres
+2024-11-19 15:01:57,250 - INFO - Cached search results for criime with filters None
+2024-11-19 15:01:57,251 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:57] "GET /autocomplete?q=criime HTTP/1.1" 200 -
+2024-11-19 15:01:57,251 - INFO - Cached search results for criime with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 15:01:57,524 - INFO - Cache used for key: trending_movies
+2024-11-19 15:01:57,525 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:01:57,525 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:01:57,526 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:57] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 15:01:57,549 - INFO - 127.0.0.1 - - [19/Nov/2024 15:01:57] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:02:00,134 - INFO - Cache used for key: movie_genres
+2024-11-19 15:02:07,231 - INFO - Cached search results for cr with filters None
+2024-11-19 15:02:07,233 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:07] "GET /autocomplete?q=cr HTTP/1.1" 200 -
+2024-11-19 15:02:09,268 - INFO - Cached search results for crime with filters None
+2024-11-19 15:02:09,268 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:09] "GET /autocomplete?q=crime HTTP/1.1" 200 -
+2024-11-19 15:02:09,272 - INFO - Cached search results for crime with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 15:02:09,476 - INFO - Cached search results for cri with filters None
+2024-11-19 15:02:09,477 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:09] "GET /autocomplete?q=cri HTTP/1.1" 200 -
+2024-11-19 15:02:09,545 - INFO - Cache used for key: trending_movies
+2024-11-19 15:02:09,545 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:02:09,545 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:02:09,547 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:09] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 15:02:09,561 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:02:15,686 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:15] "GET /movie/30432 HTTP/1.1" 200 -
+2024-11-19 15:02:15,701 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:02:22,272 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:22] "[32mPOST /movie/30432 HTTP/1.1[0m" 302 -
+2024-11-19 15:02:23,094 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:23] "GET /movie/30432 HTTP/1.1" 200 -
+2024-11-19 15:02:23,111 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:02:24,556 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:24] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 15:02:24,823 - INFO - Cache used for key: movie_genres
+2024-11-19 15:02:25,321 - INFO - Cache used for key: trending_movies
+2024-11-19 15:02:25,321 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:02:25,321 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:02:25,323 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:25] "GET / HTTP/1.1" 200 -
+2024-11-19 15:02:25,343 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:02:26,518 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:26] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 15:02:31,984 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:31] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 15:02:32,293 - INFO - Cache used for key: movie_genres
+2024-11-19 15:02:32,808 - INFO - Cache used for key: trending_movies
+2024-11-19 15:02:32,808 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:02:32,808 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:02:32,809 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:32] "GET / HTTP/1.1" 200 -
+2024-11-19 15:02:32,831 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:02:48,402 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:48] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:02:48,425 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:02:59,199 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:59] "GET /movie/30432 HTTP/1.1" 200 -
+2024-11-19 15:02:59,219 - INFO - 127.0.0.1 - - [19/Nov/2024 15:02:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:03:18,365 - INFO - Cache used for key: movie_genres
+2024-11-19 15:03:20,115 - INFO - Cached search results for worldwar 2 with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 15:03:20,389 - INFO - Cache used for key: trending_movies
+2024-11-19 15:03:20,389 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:03:20,389 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:03:20,391 - INFO - 127.0.0.1 - - [19/Nov/2024 15:03:20] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 15:03:20,413 - INFO - 127.0.0.1 - - [19/Nov/2024 15:03:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:03:22,464 - INFO - Cache used for key: movie_genres
+2024-11-19 15:03:23,701 - INFO - Cached search results for worldwar with filters None
+2024-11-19 15:03:23,702 - INFO - 127.0.0.1 - - [19/Nov/2024 15:03:23] "GET /autocomplete?q=worldwar%20 HTTP/1.1" 200 -
+2024-11-19 15:03:24,285 - INFO - Cached search results for worldwar with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 15:03:24,561 - INFO - Cache used for key: trending_movies
+2024-11-19 15:03:24,561 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:03:24,562 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:03:24,563 - INFO - 127.0.0.1 - - [19/Nov/2024 15:03:24] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 15:03:24,577 - INFO - 127.0.0.1 - - [19/Nov/2024 15:03:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:03:28,365 - INFO - Cache used for key: movie_genres
+2024-11-19 15:03:29,446 - INFO - Cache used for key: trending_movies
+2024-11-19 15:03:29,447 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:03:29,447 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:03:29,448 - INFO - 127.0.0.1 - - [19/Nov/2024 15:03:29] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 15:03:29,464 - INFO - 127.0.0.1 - - [19/Nov/2024 15:03:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:03:32,295 - INFO - Cache used for key: movie_genres
+2024-11-19 15:03:43,876 - INFO - Cached search results for war with filters None
+2024-11-19 15:03:43,877 - INFO - 127.0.0.1 - - [19/Nov/2024 15:03:43] "GET /autocomplete?q=war HTTP/1.1" 200 -
+2024-11-19 15:03:43,879 - INFO - Cached search results for war with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 15:03:44,163 - INFO - Cache used for key: trending_movies
+2024-11-19 15:03:44,163 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:03:44,163 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:03:44,170 - INFO - 127.0.0.1 - - [19/Nov/2024 15:03:44] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 15:03:44,186 - INFO - 127.0.0.1 - - [19/Nov/2024 15:03:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:04:10,064 - INFO - Cached search results for 194 with filters None
+2024-11-19 15:04:10,065 - INFO - 127.0.0.1 - - [19/Nov/2024 15:04:10] "GET /autocomplete?q=194 HTTP/1.1" 200 -
+2024-11-19 15:04:10,573 - INFO - Cache used for key: movie_genres
+2024-11-19 15:04:11,739 - INFO - Cached search results for 1945 with filters None
+2024-11-19 15:04:11,739 - INFO - Cached search results for 1945 with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 15:04:11,739 - INFO - 127.0.0.1 - - [19/Nov/2024 15:04:11] "GET /autocomplete?q=1945 HTTP/1.1" 200 -
+2024-11-19 15:04:12,016 - INFO - Cache used for key: trending_movies
+2024-11-19 15:04:12,016 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:04:12,016 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:04:12,019 - INFO - 127.0.0.1 - - [19/Nov/2024 15:04:12] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 15:04:12,044 - INFO - 127.0.0.1 - - [19/Nov/2024 15:04:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:04:15,142 - INFO - 127.0.0.1 - - [19/Nov/2024 15:04:15] "GET /movie/440342 HTTP/1.1" 200 -
+2024-11-19 15:04:15,160 - INFO - 127.0.0.1 - - [19/Nov/2024 15:04:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:04:20,702 - INFO - 127.0.0.1 - - [19/Nov/2024 15:04:20] "GET /movie/561294 HTTP/1.1" 200 -
+2024-11-19 15:04:20,724 - INFO - 127.0.0.1 - - [19/Nov/2024 15:04:20] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:04:21,353 - INFO - Cached search results for 19 with filters None
+2024-11-19 15:04:21,353 - INFO - 127.0.0.1 - - [19/Nov/2024 15:04:21] "GET /autocomplete?q=19 HTTP/1.1" 200 -
+2024-11-19 15:04:50,805 - INFO - Cache used for key: movie_genres
+2024-11-19 15:04:51,592 - INFO - Cached search results for 1945 with filters {'release_year': '', 'rating': '', 'genre': '10752', 'language': '', 'sort_by': ''}
+2024-11-19 15:04:51,870 - INFO - Cache used for key: trending_movies
+2024-11-19 15:04:51,871 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:04:51,871 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:04:51,873 - INFO - 127.0.0.1 - - [19/Nov/2024 15:04:51] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 15:04:51,890 - INFO - 127.0.0.1 - - [19/Nov/2024 15:04:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:04:56,439 - INFO - 127.0.0.1 - - [19/Nov/2024 15:04:56] "GET /movie/701604 HTTP/1.1" 200 -
+2024-11-19 15:04:56,457 - INFO - 127.0.0.1 - - [19/Nov/2024 15:04:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:05:02,598 - INFO - 127.0.0.1 - - [19/Nov/2024 15:05:02] "[32mPOST /movie/701604 HTTP/1.1[0m" 302 -
+2024-11-19 15:05:03,423 - INFO - 127.0.0.1 - - [19/Nov/2024 15:05:03] "GET /movie/701604 HTTP/1.1" 200 -
+2024-11-19 15:05:03,439 - INFO - 127.0.0.1 - - [19/Nov/2024 15:05:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:05:05,351 - INFO - 127.0.0.1 - - [19/Nov/2024 15:05:05] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 15:05:05,648 - INFO - Cache used for key: movie_genres
+2024-11-19 15:05:06,187 - INFO - Cache used for key: trending_movies
+2024-11-19 15:05:06,187 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:05:06,187 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:05:06,188 - INFO - 127.0.0.1 - - [19/Nov/2024 15:05:06] "GET / HTTP/1.1" 200 -
+2024-11-19 15:05:06,209 - INFO - 127.0.0.1 - - [19/Nov/2024 15:05:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:05:07,085 - INFO - 127.0.0.1 - - [19/Nov/2024 15:05:07] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 15:05:15,536 - INFO - 127.0.0.1 - - [19/Nov/2024 15:05:15] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 15:05:15,816 - INFO - Cache used for key: movie_genres
+2024-11-19 15:05:16,303 - INFO - Cache used for key: trending_movies
+2024-11-19 15:05:16,303 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:05:16,304 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:05:16,305 - INFO - 127.0.0.1 - - [19/Nov/2024 15:05:16] "GET / HTTP/1.1" 200 -
+2024-11-19 15:05:16,328 - INFO - 127.0.0.1 - - [19/Nov/2024 15:05:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:05:34,291 - INFO - 127.0.0.1 - - [19/Nov/2024 15:05:34] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:05:34,316 - INFO - 127.0.0.1 - - [19/Nov/2024 15:05:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:06:29,553 - INFO - 127.0.0.1 - - [19/Nov/2024 15:06:29] "GET /movie/701604 HTTP/1.1" 200 -
+2024-11-19 15:06:29,577 - INFO - 127.0.0.1 - - [19/Nov/2024 15:06:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:06:33,974 - INFO - 127.0.0.1 - - [19/Nov/2024 15:06:33] "GET /movie/357459 HTTP/1.1" 200 -
+2024-11-19 15:06:33,994 - INFO - 127.0.0.1 - - [19/Nov/2024 15:06:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:06:38,977 - INFO - 127.0.0.1 - - [19/Nov/2024 15:06:38] "[32mPOST /movie/357459 HTTP/1.1[0m" 302 -
+2024-11-19 15:06:39,801 - INFO - 127.0.0.1 - - [19/Nov/2024 15:06:39] "GET /movie/357459 HTTP/1.1" 200 -
+2024-11-19 15:06:39,818 - INFO - 127.0.0.1 - - [19/Nov/2024 15:06:39] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:06:46,402 - INFO - 127.0.0.1 - - [19/Nov/2024 15:06:46] "[32mGET /auth/logout HTTP/1.1[0m" 302 -
+2024-11-19 15:06:46,679 - INFO - Cache used for key: movie_genres
+2024-11-19 15:06:48,194 - INFO - 127.0.0.1 - - [19/Nov/2024 15:06:48] "GET / HTTP/1.1" 200 -
+2024-11-19 15:06:48,216 - INFO - 127.0.0.1 - - [19/Nov/2024 15:06:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:06:49,272 - INFO - 127.0.0.1 - - [19/Nov/2024 15:06:49] "GET /auth/register HTTP/1.1" 200 -
+2024-11-19 15:06:53,038 - INFO - 127.0.0.1 - - [19/Nov/2024 15:06:53] "GET /auth/login HTTP/1.1" 200 -
+2024-11-19 15:07:01,070 - INFO - 127.0.0.1 - - [19/Nov/2024 15:07:01] "[32mPOST /auth/login HTTP/1.1[0m" 302 -
+2024-11-19 15:07:01,423 - INFO - Cache used for key: movie_genres
+2024-11-19 15:07:01,932 - INFO - Cache used for key: trending_movies
+2024-11-19 15:07:01,933 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:07:01,933 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:07:01,935 - INFO - 127.0.0.1 - - [19/Nov/2024 15:07:01] "GET / HTTP/1.1" 200 -
+2024-11-19 15:07:01,958 - INFO - 127.0.0.1 - - [19/Nov/2024 15:07:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:07:19,075 - INFO - 127.0.0.1 - - [19/Nov/2024 15:07:19] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:07:19,100 - INFO - 127.0.0.1 - - [19/Nov/2024 15:07:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:09:06,175 - INFO - Cache used for key: movie_genres
+2024-11-19 15:09:06,896 - INFO - Cache used for key: trending_movies
+2024-11-19 15:09:06,896 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:09:06,897 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:09:06,898 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:06] "GET / HTTP/1.1" 200 -
+2024-11-19 15:09:06,917 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:09:16,491 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:16] "GET /movie/845781 HTTP/1.1" 200 -
+2024-11-19 15:09:16,513 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:09:22,213 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:22] "[32mPOST /movie/845781 HTTP/1.1[0m" 302 -
+2024-11-19 15:09:23,094 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:23] "GET /movie/845781 HTTP/1.1" 200 -
+2024-11-19 15:09:23,113 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:09:25,874 - INFO - Cache used for key: movie_genres
+2024-11-19 15:09:26,372 - INFO - Cache used for key: trending_movies
+2024-11-19 15:09:26,372 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:09:26,373 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:09:26,374 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:26] "GET / HTTP/1.1" 200 -
+2024-11-19 15:09:26,395 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:09:36,053 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:36] "GET /movie/238 HTTP/1.1" 200 -
+2024-11-19 15:09:36,074 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:09:37,535 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:37] "[32mPOST /favorites/add/238 HTTP/1.1[0m" 302 -
+2024-11-19 15:09:38,630 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:38] "GET /favorites HTTP/1.1" 200 -
+2024-11-19 15:09:38,649 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:09:41,102 - INFO - Cache used for key: movie_genres
+2024-11-19 15:09:41,609 - INFO - Cache used for key: trending_movies
+2024-11-19 15:09:41,609 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:09:41,611 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:09:41,612 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:41] "GET / HTTP/1.1" 200 -
+2024-11-19 15:09:41,634 - INFO - 127.0.0.1 - - [19/Nov/2024 15:09:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:22:22,611 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\finale\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 15:22:22,770 - INFO -  * Restarting with stat
+2024-11-19 15:22:27,285 - WARNING -  * Debugger is active!
+2024-11-19 15:22:27,290 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 15:22:30,828 - INFO - 127.0.0.1 - - [19/Nov/2024 15:22:30] "GET / HTTP/1.1" 200 -
+2024-11-19 15:22:30,942 - INFO - 127.0.0.1 - - [19/Nov/2024 15:22:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:22:51,674 - INFO - 127.0.0.1 - - [19/Nov/2024 15:22:51] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:22:51,701 - INFO - 127.0.0.1 - - [19/Nov/2024 15:22:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:24:59,419 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\finale\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 15:24:59,537 - INFO -  * Restarting with stat
+2024-11-19 15:25:01,201 - WARNING -  * Debugger is active!
+2024-11-19 15:25:01,210 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 15:25:22,911 - INFO - 127.0.0.1 - - [19/Nov/2024 15:25:22] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:25:23,011 - INFO - 127.0.0.1 - - [19/Nov/2024 15:25:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:27:30,083 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\finale\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 15:27:30,194 - INFO -  * Restarting with stat
+2024-11-19 15:27:31,602 - WARNING -  * Debugger is active!
+2024-11-19 15:27:31,608 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 15:27:52,579 - INFO - 127.0.0.1 - - [19/Nov/2024 15:27:52] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:27:52,681 - INFO - 127.0.0.1 - - [19/Nov/2024 15:27:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:28:31,182 - INFO - 127.0.0.1 - - [19/Nov/2024 15:28:31] "GET / HTTP/1.1" 200 -
+2024-11-19 15:28:31,204 - INFO - 127.0.0.1 - - [19/Nov/2024 15:28:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:28:36,592 - INFO - 127.0.0.1 - - [19/Nov/2024 15:28:36] "GET /movie/1184918 HTTP/1.1" 200 -
+2024-11-19 15:28:36,617 - INFO - 127.0.0.1 - - [19/Nov/2024 15:28:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:28:39,912 - INFO - 127.0.0.1 - - [19/Nov/2024 15:28:39] "[32mPOST /movie/1184918 HTTP/1.1[0m" 302 -
+2024-11-19 15:28:40,747 - INFO - 127.0.0.1 - - [19/Nov/2024 15:28:40] "GET /movie/1184918 HTTP/1.1" 200 -
+2024-11-19 15:28:40,766 - INFO - 127.0.0.1 - - [19/Nov/2024 15:28:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:29:02,065 - INFO - 127.0.0.1 - - [19/Nov/2024 15:29:02] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:29:02,083 - INFO - 127.0.0.1 - - [19/Nov/2024 15:29:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:30:26,022 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\finale\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 15:30:26,149 - INFO -  * Restarting with stat
+2024-11-19 15:30:27,531 - WARNING -  * Debugger is active!
+2024-11-19 15:30:27,536 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 15:30:38,635 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\finale\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 15:30:38,739 - INFO -  * Restarting with stat
+2024-11-19 15:30:40,161 - WARNING -  * Debugger is active!
+2024-11-19 15:30:40,165 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 15:30:47,107 - INFO - 127.0.0.1 - - [19/Nov/2024 15:30:47] "GET / HTTP/1.1" 200 -
+2024-11-19 15:30:47,214 - INFO - 127.0.0.1 - - [19/Nov/2024 15:30:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:30:50,308 - INFO - Cache used for key: movie_genres
+2024-11-19 15:30:51,615 - INFO - Cached search results for one piecd with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 15:30:51,615 - INFO - Cached search results for one piecd with filters None
+2024-11-19 15:30:51,616 - INFO - 127.0.0.1 - - [19/Nov/2024 15:30:51] "GET /autocomplete?q=one%20piecd HTTP/1.1" 200 -
+2024-11-19 15:30:52,829 - INFO - Cache used for key: trending_movies
+2024-11-19 15:30:52,829 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:30:52,830 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:30:52,831 - INFO - 127.0.0.1 - - [19/Nov/2024 15:30:52] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 15:30:52,854 - INFO - 127.0.0.1 - - [19/Nov/2024 15:30:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:30:53,190 - INFO - Cached search results for one piecde with filters None
+2024-11-19 15:30:53,190 - INFO - 127.0.0.1 - - [19/Nov/2024 15:30:53] "GET /autocomplete?q=one%20piecde HTTP/1.1" 200 -
+2024-11-19 15:30:53,372 - INFO - Cached search results for one piece with filters None
+2024-11-19 15:30:53,373 - INFO - 127.0.0.1 - - [19/Nov/2024 15:30:53] "GET /autocomplete?q=one%20piece HTTP/1.1" 200 -
+2024-11-19 15:30:53,561 - INFO - Cache used for key: movie_genres
+2024-11-19 15:30:55,160 - INFO - Cache used for key: trending_movies
+2024-11-19 15:30:55,160 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:30:55,160 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:30:55,162 - INFO - 127.0.0.1 - - [19/Nov/2024 15:30:55] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 15:30:55,177 - INFO - 127.0.0.1 - - [19/Nov/2024 15:30:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:30:56,870 - INFO - Cached search results for one p with filters None
+2024-11-19 15:30:56,871 - INFO - 127.0.0.1 - - [19/Nov/2024 15:30:56] "GET /autocomplete?q=one%20p HTTP/1.1" 200 -
+2024-11-19 15:30:57,832 - INFO - Cache used for key: movie_genres
+2024-11-19 15:30:58,117 - INFO - 127.0.0.1 - - [19/Nov/2024 15:30:58] "GET /autocomplete?q=one%20piece HTTP/1.1" 200 -
+2024-11-19 15:30:58,591 - INFO - Cached search results for one piece with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 15:30:59,215 - INFO - Cache used for key: movie_genres
+2024-11-19 15:30:59,674 - INFO - Cache used for key: trending_movies
+2024-11-19 15:30:59,674 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:30:59,674 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:30:59,677 - INFO - 127.0.0.1 - - [19/Nov/2024 15:30:59] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 15:30:59,724 - INFO - 127.0.0.1 - - [19/Nov/2024 15:30:59] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:31:00,949 - INFO - Cached search results for one with filters None
+2024-11-19 15:31:00,951 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:00] "GET /autocomplete?q=one HTTP/1.1" 200 -
+2024-11-19 15:31:01,163 - INFO - Cache used for key: trending_movies
+2024-11-19 15:31:01,163 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:31:01,163 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:31:01,165 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:01] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 15:31:01,182 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:31:03,475 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:03] "GET /movie/900667 HTTP/1.1" 200 -
+2024-11-19 15:31:03,494 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:31:07,482 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:07] "[32mPOST /movie/900667 HTTP/1.1[0m" 302 -
+2024-11-19 15:31:08,314 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:08] "GET /movie/900667 HTTP/1.1" 200 -
+2024-11-19 15:31:08,335 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:31:11,193 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:11] "[32mPOST /favorites/add/900667 HTTP/1.1[0m" 302 -
+2024-11-19 15:31:13,597 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:13] "GET /favorites HTTP/1.1" 200 -
+2024-11-19 15:31:13,620 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:13] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:31:35,525 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:35] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:31:35,545 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:31:51,904 - INFO - Cache used for key: movie_genres
+2024-11-19 15:31:52,424 - INFO - Cache used for key: trending_movies
+2024-11-19 15:31:52,425 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:31:52,425 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:31:52,428 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:52] "GET / HTTP/1.1" 200 -
+2024-11-19 15:31:52,455 - INFO - 127.0.0.1 - - [19/Nov/2024 15:31:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:32:19,647 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\finale\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 15:32:19,769 - INFO -  * Restarting with stat
+2024-11-19 15:32:21,164 - WARNING -  * Debugger is active!
+2024-11-19 15:32:21,169 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 15:32:25,920 - INFO - 127.0.0.1 - - [19/Nov/2024 15:32:25] "GET / HTTP/1.1" 200 -
+2024-11-19 15:32:26,020 - INFO - 127.0.0.1 - - [19/Nov/2024 15:32:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:32:48,085 - INFO - 127.0.0.1 - - [19/Nov/2024 15:32:48] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:32:48,109 - INFO - 127.0.0.1 - - [19/Nov/2024 15:32:48] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:33:04,626 - INFO - Cache used for key: movie_genres
+2024-11-19 15:33:07,706 - INFO - Cached search results for Avengers with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
+2024-11-19 15:33:08,791 - INFO - Cache used for key: trending_movies
+2024-11-19 15:33:08,791 - INFO - Cache used for key: top_rated_movies
+2024-11-19 15:33:08,792 - INFO - Cache used for key: new_released_movies
+2024-11-19 15:33:08,794 - INFO - 127.0.0.1 - - [19/Nov/2024 15:33:08] "POST /recommend HTTP/1.1" 200 -
+2024-11-19 15:33:08,817 - INFO - 127.0.0.1 - - [19/Nov/2024 15:33:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:33:12,465 - INFO - 127.0.0.1 - - [19/Nov/2024 15:33:12] "GET /movie/299536 HTTP/1.1" 200 -
+2024-11-19 15:33:12,484 - INFO - 127.0.0.1 - - [19/Nov/2024 15:33:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:33:17,021 - INFO - 127.0.0.1 - - [19/Nov/2024 15:33:17] "[32mPOST /movie/299536 HTTP/1.1[0m" 302 -
+2024-11-19 15:33:17,956 - INFO - 127.0.0.1 - - [19/Nov/2024 15:33:17] "GET /movie/299536 HTTP/1.1" 200 -
+2024-11-19 15:33:17,974 - INFO - 127.0.0.1 - - [19/Nov/2024 15:33:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:33:41,453 - INFO - 127.0.0.1 - - [19/Nov/2024 15:33:41] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:33:41,477 - INFO - 127.0.0.1 - - [19/Nov/2024 15:33:41] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:35:16,337 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\finale\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 15:35:16,451 - INFO -  * Restarting with stat
+2024-11-19 15:35:17,927 - WARNING -  * Debugger is active!
+2024-11-19 15:35:17,934 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 15:35:38,491 - INFO - 127.0.0.1 - - [19/Nov/2024 15:35:38] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:35:38,585 - INFO - 127.0.0.1 - - [19/Nov/2024 15:35:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:36:06,834 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\finale\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 15:36:06,944 - INFO -  * Restarting with stat
+2024-11-19 15:36:08,271 - WARNING -  * Debugger is active!
+2024-11-19 15:36:08,276 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 15:36:11,043 - INFO - 127.0.0.1 - - [19/Nov/2024 15:36:11] "GET /movie/299536 HTTP/1.1" 200 -
+2024-11-19 15:36:11,133 - INFO - 127.0.0.1 - - [19/Nov/2024 15:36:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:36:32,310 - INFO - 127.0.0.1 - - [19/Nov/2024 15:36:32] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:36:32,335 - INFO - 127.0.0.1 - - [19/Nov/2024 15:36:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:36:42,920 - INFO - 127.0.0.1 - - [19/Nov/2024 15:36:42] "GET /movie/372058 HTTP/1.1" 200 -
+2024-11-19 15:36:42,944 - INFO - 127.0.0.1 - - [19/Nov/2024 15:36:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:36:48,190 - INFO - 127.0.0.1 - - [19/Nov/2024 15:36:48] "[32mPOST /movie/372058 HTTP/1.1[0m" 302 -
+2024-11-19 15:36:49,041 - INFO - 127.0.0.1 - - [19/Nov/2024 15:36:49] "GET /movie/372058 HTTP/1.1" 200 -
+2024-11-19 15:36:49,058 - INFO - 127.0.0.1 - - [19/Nov/2024 15:36:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:36:54,853 - INFO - 127.0.0.1 - - [19/Nov/2024 15:36:54] "GET /movie/269149 HTTP/1.1" 200 -
+2024-11-19 15:36:54,883 - INFO - 127.0.0.1 - - [19/Nov/2024 15:36:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:36:59,913 - INFO - 127.0.0.1 - - [19/Nov/2024 15:36:59] "[32mPOST /movie/269149 HTTP/1.1[0m" 302 -
+2024-11-19 15:37:00,743 - INFO - 127.0.0.1 - - [19/Nov/2024 15:37:00] "GET /movie/269149 HTTP/1.1" 200 -
+2024-11-19 15:37:00,761 - INFO - 127.0.0.1 - - [19/Nov/2024 15:37:00] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:37:22,587 - INFO - 127.0.0.1 - - [19/Nov/2024 15:37:22] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:37:35,359 - INFO - 127.0.0.1 - - [19/Nov/2024 15:37:35] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:37:35,379 - INFO - 127.0.0.1 - - [19/Nov/2024 15:37:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:37:50,369 - INFO - 127.0.0.1 - - [19/Nov/2024 15:37:50] "GET / HTTP/1.1" 200 -
+2024-11-19 15:37:50,394 - INFO - 127.0.0.1 - - [19/Nov/2024 15:37:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:38:14,135 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\finale\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 15:38:14,270 - INFO -  * Restarting with stat
+2024-11-19 15:38:15,865 - WARNING -  * Debugger is active!
+2024-11-19 15:38:15,870 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 15:39:04,766 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\finale\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 15:39:04,876 - INFO -  * Restarting with stat
+2024-11-19 15:39:06,372 - WARNING -  * Debugger is active!
+2024-11-19 15:39:06,377 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 15:47:27,401 - INFO -  * Detected change in 'c:\\Users\\61414\\Downloads\\finale\\ba-master\\3002\\recommendation.py', reloading
+2024-11-19 15:47:27,528 - INFO -  * Restarting with stat
+2024-11-19 15:47:28,991 - WARNING -  * Debugger is active!
+2024-11-19 15:47:28,997 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 15:47:34,394 - INFO - 127.0.0.1 - - [19/Nov/2024 15:47:34] "GET / HTTP/1.1" 200 -
+2024-11-19 15:47:34,497 - INFO - 127.0.0.1 - - [19/Nov/2024 15:47:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:47:56,431 - INFO - 127.0.0.1 - - [19/Nov/2024 15:47:56] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:47:56,449 - INFO - 127.0.0.1 - - [19/Nov/2024 15:47:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:48:44,962 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 15:48:44,963 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 15:48:44,965 - INFO -  * Restarting with stat
+2024-11-19 15:48:46,294 - WARNING -  * Debugger is active!
+2024-11-19 15:48:46,299 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 15:48:49,881 - INFO - 127.0.0.1 - - [19/Nov/2024 15:48:49] "GET / HTTP/1.1" 200 -
+2024-11-19 15:48:49,982 - INFO - 127.0.0.1 - - [19/Nov/2024 15:48:49] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 15:49:11,812 - INFO - 127.0.0.1 - - [19/Nov/2024 15:49:11] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 15:49:11,835 - INFO - 127.0.0.1 - - [19/Nov/2024 15:49:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 16:04:25,273 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 16:04:25,273 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 16:04:25,275 - INFO -  * Restarting with stat
+2024-11-19 16:04:26,590 - WARNING -  * Debugger is active!
+2024-11-19 16:04:26,594 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 16:04:30,787 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:30] "GET / HTTP/1.1" 200 -
+2024-11-19 16:04:30,883 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 16:04:33,541 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:33] "GET /movie/1101547 HTTP/1.1" 200 -
+2024-11-19 16:04:33,563 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 16:04:40,517 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:40] "GET /movie/27205 HTTP/1.1" 200 -
+2024-11-19 16:04:40,537 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 16:04:44,539 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:44] "GET /movie/27205 HTTP/1.1" 200 -
+2024-11-19 16:04:44,566 - INFO - 127.0.0.1 - - [19/Nov/2024 16:04:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 16:05:03,103 - INFO - 127.0.0.1 - - [19/Nov/2024 16:05:03] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 16:05:03,128 - INFO - 127.0.0.1 - - [19/Nov/2024 16:05:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 17:47:16,477 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 17:47:16,478 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 17:47:16,481 - INFO -  * Restarting with stat
+2024-11-19 17:47:17,864 - WARNING -  * Debugger is active!
+2024-11-19 17:47:17,869 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 17:47:22,650 - INFO - 127.0.0.1 - - [19/Nov/2024 17:47:22] "GET / HTTP/1.1" 200 -
+2024-11-19 17:47:22,758 - INFO - 127.0.0.1 - - [19/Nov/2024 17:47:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 17:47:34,797 - INFO - 127.0.0.1 - - [19/Nov/2024 17:47:34] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 17:47:34,821 - INFO - 127.0.0.1 - - [19/Nov/2024 17:47:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 23:29:52,696 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5004
+2024-11-19 23:29:52,697 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-19 23:29:52,705 - INFO -  * Restarting with stat
+2024-11-19 23:29:54,141 - WARNING -  * Debugger is active!
+2024-11-19 23:29:54,146 - INFO -  * Debugger PIN: 137-485-876
+2024-11-19 23:29:59,561 - INFO - 127.0.0.1 - - [19/Nov/2024 23:29:59] "GET / HTTP/1.1" 200 -
+2024-11-19 23:29:59,666 - INFO - 127.0.0.1 - - [19/Nov/2024 23:29:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 23:30:15,934 - INFO - 127.0.0.1 - - [19/Nov/2024 23:30:15] "GET /personalized HTTP/1.1" 200 -
+2024-11-19 23:30:15,968 - INFO - 127.0.0.1 - - [19/Nov/2024 23:30:15] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-19 23:50:21,335 - INFO - Cached search results for Inception with filters {'release_year': '', 'rating': '', 'genre': '', 'language': '', 'sort_by': ''}
