@@ -105,8 +105,7 @@ Contributions are welcome! To contribute:
 Please ensure your code follows the project's coding standards and includes appropriate tests.
 
 ## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Victoria University Group 13
 
 ## Acknowledgments
 
